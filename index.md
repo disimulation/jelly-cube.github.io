@@ -1,5 +1,5 @@
 ## Welcome to jelly-cube's Github page
-[![Discord](discord.png)]([https://nodesource.com/products/nsolid](https://discord.com/channels/982366575233466418/984916079388270622))
+
 ### _one website out of 1.98 billion_
 just a tiny little corner of a vast sea known as the **internet**
 
