@@ -47,9 +47,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!` 
 
-**about me**: :wave: hello. 
+**about me**:  :wave: hello. 
 `just an amateur coder on github`
-> `Knows HTML and a bit of shell commands. `:computer: 
+> `Knows HTML and a bit of shell commands. ` :computer: 
 >
 >and probably nothing else though i'm trash a coding
 >
