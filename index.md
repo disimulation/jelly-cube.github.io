@@ -1,4 +1,4 @@
-## Welcome to jelly-cube's Github page
+# jelly-cube.github.io
 
 ### _one out of 1.98 billion websites_
 just a tiny little corner of a vast planet called the **internet**
