@@ -66,4 +66,4 @@ and probably nothing else
 
 #### **See you later!**
 
-[animation example](/animation.html)
+[animation of some random floating green cube spinning around](/animation.html)
