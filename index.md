@@ -37,10 +37,14 @@ There is also an ocean of websites out their- just waiting to be discovered.
 source: [https://firstsiteguide.com/how-many-websites/](https://firstsiteguide.com/how-many-websites/) 
 
 **This is the data in visual form**
-if you want to take a look at it <br />
+if you want to take a look at it </br>
 <image width="512" height="569" src="https://firstsiteguide.com/wp-content/uploads/2021/02/1.98b-number-of-websites-in-world-873x1024.png" />
-
-**made by Drippie#2667** `feel free to add/DM me on Discord!` 
+<br> **[placeholder]**
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Sagittis orci a scelerisque purus semper eget duis. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Lobortis feugiat vivamus at augue eget arcu. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Nec ultrices dui sapien eget mi proin sed libero enim. Enim nec dui nunc mattis enim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Netus et malesuada fames ac. Leo in vitae turpis massa sed elementum tempus. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Neque vitae tempus quam pellentesque nec nam aliquam. Velit sed ullamcorper morbi tincidunt ornare massa. Posuere sollicitudin aliquam ultrices sagittis orci.
+<br>
+**[placeholder]**
+<br> **made by Drippie#2667** `feel free to add/DM me on Discord!` 
 
 
 ### external soundtracks **[NCS releases]**
