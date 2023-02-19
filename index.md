@@ -44,16 +44,22 @@ if you want to take a look at it </br>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Sagittis orci a scelerisque purus semper eget duis. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Lobortis feugiat vivamus at augue eget arcu. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Nec ultrices dui sapien eget mi proin sed libero enim. Enim nec dui nunc mattis enim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Netus et malesuada fames ac. Leo in vitae turpis massa sed elementum tempus. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Neque vitae tempus quam pellentesque nec nam aliquam. Velit sed ullamcorper morbi tincidunt ornare massa. Posuere sollicitudin aliquam ultrices sagittis orci.
 <br>
 **[placeholder]**
-<br> **made by Drippie#2667** `feel free to add/DM me on Discord!` 
+
+### this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!` 
 
 **about me**: :wave: hello. 
-`just an amateur coder `
+`just an amateur coder on github`
 > `Knows HTML and a bit of shell commands. `:computer: 
-and probably nothing else
 >
->any pronouns work on Discord
-<br> >has 2 brain cells left.
+>and probably nothing else though i'm trash a coding
+>
+>open for contact at main email: **alex.yt2021.io@gmail.com** 
+>
+>any pronouns work on Discord ~has 2 brain cells left.
+>
 >**my OG website:** https://memestonks.github.io
+>
+>**my github profile:** https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19
 
 ### external soundtracks **[NCS releases]**
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/433088382&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nocopyrightsounds" title="NCS" target="_blank" style="color: #cccccc; text-decoration: none;">NCS</a> · <a href="https://soundcloud.com/nocopyrightsounds/why-do-i" title="Unknown Brain - Why Do I? (feat. Bri Tolani) [NCS Release]" target="_blank" style="color: #cccccc; text-decoration: none;">Unknown Brain - Why Do I? (feat. Bri Tolani) [NCS Release]</a></div>
@@ -67,3 +73,10 @@ and probably nothing else
 #### **See you later!**
 
 [animation of some random floating green cube spinning around](/animation.html)
+
+but with no outlines and 420hp animation quality
+
+**source of 3d javascript/html:** [https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+threejs: https://threejs.org/build/three.js
+(@license Copyright 2010-2023 Three.js Authors
+ SPDX-License-Identifier: MIT)
