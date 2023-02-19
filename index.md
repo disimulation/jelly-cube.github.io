@@ -36,8 +36,8 @@ There is also an ocean of websites out their- just waiting to be discovered.
 
 source: [https://firstsiteguide.com/how-many-websites/](https://firstsiteguide.com/how-many-websites/) 
 
-**This is the data in visual form**
-if you want to take a look at it </br>
+**This is the data in visual form** if you want to take a look at it 
+
 <image width="512" height="569" src="https://firstsiteguide.com/wp-content/uploads/2021/02/1.98b-number-of-websites-in-world-873x1024.png" />
 <br> **[placeholder]**
 
