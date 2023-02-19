@@ -11,7 +11,7 @@ You might be just one out of ~100 people to land on this webpage
 in percentage form, this is around **0.00000000505051%**
 So if you just so happened to stumble across this website; you are one out of millions to do so!
     <br> `so congratulations! ;)` </br>
-<br> </br>
+
 every single webpage is just a tiny rock stranded in a entire sea of information and raw data
 <br>
 
