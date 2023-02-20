@@ -24,17 +24,37 @@ There is also an ocean of websites out their- just waiting to be discovered.
 <br> Take a look at this chart showing the number of websites out there:
 </br>
 
-| Date   | Number of websites |
-| ------ | ------------------ |
-| 1991   |           1        |
-| 1995   |           23.5 k   |
+| Date   | Number of websites [1]|        
+| ------ | ------------------ |                                                    
+| 1991   |           1        |             
+| 1995   |           23.5 k   |                 
 | 2000   |           17.1 M.  |
 | 2005   |           64.8 M   |
 | 2010   |           207.0 M  |
 | 2015   |           863.1 M  |
 | 2022   |           1.98 B.  |
 
-source: [https://firstsiteguide.com/how-many-websites/](https://firstsiteguide.com/how-many-websites/) 
+| Website  | Monthly visits | rank [2]|        
+| -------- | -------------- | -----|            
+| Google   | 92.5 B         | #1   |            
+| Youtube  | 34.6 B         | #2   |                                                           
+| Facebook | 25.5 B         | #3   |        
+| Twitter  | 6.6 B          | #4   |
+| Wikipedia| 6.1 B          | #5   |
+| Instagram| 6.1 B          | #6   |
+| Baidu    | 5.6 B          | #7   |
+
+[1] * **From: The Growth of The Web (1990–2022)**
+<br> Ogi Djuraskovic
+<br> Updated: September 28th, 2022
+<br> 10 min read
+<br>source: [https://firstsiteguide.com/how-many-websites/](https://firstsiteguide.com/how-many-websites/) 
+
+[2] * **From: The 50 Most Visited Websites in the World**
+<br> By Dorothy Neufeld
+<br> 2 years ago on January 27, 2021
+<br> Graphics/Design: Joyce Ma   
+<br> source: [https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/](https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/) 
 
 **This is the data in visual form** if you want to take a look at it 
 
