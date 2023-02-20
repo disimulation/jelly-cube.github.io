@@ -60,11 +60,6 @@ There is also an ocean of websites out their- just waiting to be discovered.
 
 <image width="800" height="450" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_2400,h_1350,x_0,y_497/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gesybxss92k4zfbag2.png"> 
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Sagittis orci a scelerisque purus semper eget duis. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Lobortis feugiat vivamus at augue eget arcu. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Nec ultrices dui sapien eget mi proin sed libero enim. Enim nec dui nunc mattis enim. Tristique nulla aliquet enim tortor at auctor urna nunc id. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Netus et malesuada fames ac. Leo in vitae turpis massa sed elementum tempus. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Neque vitae tempus quam pellentesque nec nam aliquam. Velit sed ullamcorper morbi tincidunt ornare massa. Posuere sollicitudin aliquam ultrices sagittis orci.
-<br>
-
-
 ### this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!` 
 
 **about me**:  :wave: hello. 
