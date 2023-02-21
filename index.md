@@ -15,14 +15,14 @@ So if you just so happened to stumble across this website; you are one out of mi
 every single webpage is just a tiny rock stranded in a entire sea of information and raw data
 it's truly amazing to know that the maybe 100 or so human visitors of this website might be around
 the only person to ever reach this page in their entire country. 
-<br> `8.017 billion/100 visitors` = to 1 visitor: per ~80.2 million people <br>
+
+`8.017 billion/100 visitors` = to 1 visitor: per ~80.2 million people <br>
 There are 195 countries in the world (Israel exists) so there are around 4111282.05128 (4.11 million)
 people per country; showing that only 1/20th of a person will ever read this text.
-<br>
 
 There is also an ocean of websites out their- just waiting to be discovered.
-<br> Take a look at this chart showing the number of websites out there:
-</br>
+
+Take a look at this chart showing the number of websites out there:
 
 | Date   | Number of websites [1]|        
 | ------ | ------------------ |                                                    
@@ -60,17 +60,23 @@ There is also an ocean of websites out their- just waiting to be discovered.
 
 <image width="800" height="450" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_2400,h_1350,x_0,y_497/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gesybxss92k4zfbag2.png"> 
 
-this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!` 
+
+this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!`
 
 **about me**:  :wave: hello. 
-    
+
 `just an amateur coder on github`
 
-> `Knows HTML and a bit of shell commands. ` :computer: 
+> `Knows HTML and a bit of shell commands.` :computer:
+>
 > and probably nothing else though i'm trash a coding
-> open for contact at main email: **alex.yt2021.io@gmail.com** 
+>
+> open for contact at main email: **alex.yt2021.io@gmail.com**
+>
 > any pronouns work on Discord ~has 2 brain cells left.
+>
 > my OG website: https://memestonks.github.io
+>
 > my github profile: https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19
     
 ### external soundtracks **[NCS releases]**
