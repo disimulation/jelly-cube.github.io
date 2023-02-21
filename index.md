@@ -34,6 +34,8 @@ Take a look at this chart showing the number of websites out there:
 | 2015   |           863.1 M  |
 | 2022   |           1.98 B.  |
 
+This chart shows the top 7 most visited websites:
+
 | Website  | Monthly visits | rank [2]|        
 | -------- | -------------- | -----|            
 | Google   | 92.5 B         | #1   |            
@@ -62,21 +64,21 @@ Graphics/Design: Joyce Ma    source: [https://www.visualcapitalist.com/the-50-mo
 
 ### this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!`
 
-**about me**: :wave: hello. 
+**about me**: hello. 
 
 `just an amateur coder on github`
 
-> `Knows HTML and a bit of shell commands.` :computer:
+> `Knows HTML and a bit of shell commands.` 
 >
-> and probably nothing else though i'm trash a coding
+> and probably nothing else 
 >
 > open for contact at main email: **alex.yt2021.io@gmail.com**
 >
 > any pronouns work on Discord ~has 2 brain cells left.
 >
-> my OG website: https://memestonks.github.io
+> my OG website: [https://memestonks.github.io](https://memestonks.github.io)
 >
-> my github profile: https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19
+> my github profile: [https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19](https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19)
 
 ### external soundtracks **[NCS releases]**
  
