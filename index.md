@@ -60,32 +60,27 @@ There is also an ocean of websites out their- just waiting to be discovered.
 
 <image width="800" height="450" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_2400,h_1350,x_0,y_497/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gesybxss92k4zfbag2.png"> 
 
-### this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!` 
+this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!` 
 
 **about me**:  :wave: hello. 
     
 `just an amateur coder on github`
 
 > `Knows HTML and a bit of shell commands. ` :computer: 
->
->and probably nothing else though i'm trash a coding
->
->open for contact at main email: **alex.yt2021.io@gmail.com** 
->
->any pronouns work on Discord ~has 2 brain cells left.
->
->my OG website: https://memestonks.github.io
->
->my github profile: https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19
+> and probably nothing else though i'm trash a coding
+> open for contact at main email: **alex.yt2021.io@gmail.com** 
+> any pronouns work on Discord ~has 2 brain cells left.
+> my OG website: https://memestonks.github.io
+> my github profile: https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19
     
 ### external soundtracks **[NCS releases]**
     
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/433088382&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nocopyrightsounds" title="NCS" target="_blank" style="color: #cccccc; text-decoration: none;">NCS</a> · <a href="https://soundcloud.com/nocopyrightsounds/why-do-i" title="Unknown Brain - Why Do I? (feat. Bri Tolani) [NCS Release]" target="_blank" style="color: #cccccc; text-decoration: none;">Unknown Brain - Why Do I? (feat. Bri Tolani) [NCS Release]</a></div>
-<br>
+
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209579854&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nocopyrightsounds" title="NCS" target="_blank" style="color: #cccccc; text-decoration: none;">NCS</a> · <a href="https://soundcloud.com/nocopyrightsounds/janji-heroes-tonight-feat-johnningncs-release" title="Janji - Heroes Tonight (feat. Johnning)[NCS Release]" target="_blank" style="color: #cccccc; text-decoration: none;">Janji - Heroes Tonight (feat. Johnning)[NCS Release]</a></div>
-<br>
+
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1436599183&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nocopyrightsounds" title="NCS" target="_blank" style="color: #cccccc; text-decoration: none;">NCS</a> · <a href="https://soundcloud.com/nocopyrightsounds/raven-kreyn-kdh-dum-dum-feat-scarlett-ncs-release" title="Raven &amp; Kreyn, KDH - Dum Dum (feat. Scarlett) [NCS Release]" target="_blank" style="color: #cccccc; text-decoration: none;">Raven &amp; Kreyn, KDH - Dum Dum (feat. Scarlett) [NCS Release]</a></div>
-<br>
+
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/375365648&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nocopyrightsounds" title="NCS" target="_blank" style="color: #cccccc; text-decoration: none;">NCS</a> · <a href="https://soundcloud.com/nocopyrightsounds/tule-fearless-pt-ii-feat-chris-linton-1" title="Lost Sky - Fearless Pt. II (feat. Chris Linton) (formerly TULE - Fearless pt. II) [NCS Release]" target="_blank" style="color: #cccccc; text-decoration: none;">Lost Sky - Fearless Pt. II (feat. Chris Linton) (formerly TULE - Fearless pt. II) [NCS Release]</a></div>
 
 #### **See you later!**
