@@ -63,7 +63,9 @@ There is also an ocean of websites out their- just waiting to be discovered.
 ### this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!` 
 
 **about me**:  :wave: hello. 
+    
 `just an amateur coder on github`
+
 > `Knows HTML and a bit of shell commands. ` :computer: 
 >
 >and probably nothing else though i'm trash a coding
@@ -75,7 +77,7 @@ There is also an ocean of websites out their- just waiting to be discovered.
 >my OG website: https://memestonks.github.io
 >
 >my github profile: https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19
-<br>
+    
 ### external soundtracks **[NCS releases]**
     
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/433088382&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nocopyrightsounds" title="NCS" target="_blank" style="color: #cccccc; text-decoration: none;">NCS</a> · <a href="https://soundcloud.com/nocopyrightsounds/why-do-i" title="Unknown Brain - Why Do I? (feat. Bri Tolani) [NCS Release]" target="_blank" style="color: #cccccc; text-decoration: none;">Unknown Brain - Why Do I? (feat. Bri Tolani) [NCS Release]</a></div>
