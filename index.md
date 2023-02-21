@@ -58,12 +58,12 @@ Take a look at this chart showing the number of websites out there:
 
 **This is the data in visual form** if you want to take a look at it [most visited website by country]
 
-<image width="800" height="450" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_2400,h_1350,x_0,y_497/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gesybxss92k4zfbag2.png"> 
+<image width="800" height="450" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_2400,h_1350,x_0,y_497/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gesybxss92k4zfbag2.png" /> 
 
 
 this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!`
 
-**about me**:  :wave: hello. 
+**about me**: :wave: hello. 
 
 `just an amateur coder on github`
 
