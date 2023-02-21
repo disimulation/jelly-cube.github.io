@@ -47,15 +47,24 @@ This chart shows the top 7 most visited websites:
 | Baidu    | 5.6 B          | #7   |
 
 [1] * **From: The Growth of The Web (1990–2022)**
+
 Ogi Djuraskovic
+
 Updated: September 28th, 2022
+
 10 min read
+
 source: [https://firstsiteguide.com/how-many-websites/](https://firstsiteguide.com/how-many-websites/) 
 
 [2] * **From: The 50 Most Visited Websites in the World**
+
 By Dorothy Neufeld
+
 2 years ago on January 27, 2021
-Graphics/Design: Joyce Ma    source: [https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/](https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/) 
+
+Graphics/Design: Joyce Ma    
+
+source: [https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/](https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/) 
 
 **This is the data in visual form** if you want to take a look at it [most visited website by country]
 
