@@ -75,19 +75,21 @@ source: [https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-wo
 
 **about me**: hello. 
 
-`just an amateur coder on github`
+- `just an amateur coder on github`
 
-> `Knows HTML and a bit of shell commands.` 
->
-> and probably nothing else 
->
-> open for contact at main email: **alex.yt2021.io@gmail.com**
->
-> any pronouns work on Discord ~has 2 brain cells left.
->
-> my OG website: [https://memestonks.github.io](https://memestonks.github.io)
->
-> my github profile: [https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19](https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19)
+- `Knows HTML and a bit of shell commands.` 
+
+   - and probably nothing else 
+
+ - open for contact at main email: **alex.yt2021.io@gmail.com**
+
+ - any pronouns work on Discord 
+   
+   - ~has 2 brain cells left.
+
+ my OG website: [https://memestonks.github.io](https://memestonks.github.io)
+
+ my github profile: [https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19](https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19)
 
 ### external soundtracks **[NCS releases]**
  
