@@ -2,7 +2,7 @@
 
 ### _one out of 1.98 billion websites_
 just a tiny little corner of a vast planet called the **internet**
-<br> 
+
 You might be just one out of ~100 people to land on this webpage
 
 ### the chances of you landing on this website
@@ -10,7 +10,7 @@ You might be just one out of ~100 people to land on this webpage
 **are a billionth of 50%**
 in percentage form, this is around **0.00000000505051%**
 So if you just so happened to stumble across this website; you are one out of millions to do so!
-    <br> `so congratulations! ;)` 
+`so congratulations! ;)` 
 
 every single webpage is just a tiny rock stranded in a entire sea of information and raw data
 it's truly amazing to know that the maybe 100 or so human visitors of this website might be around
@@ -45,20 +45,20 @@ Take a look at this chart showing the number of websites out there:
 | Baidu    | 5.6 B          | #7   |
 
 [1] * **From: The Growth of The Web (1990–2022)**
-<br> Ogi Djuraskovic
-<br> Updated: September 28th, 2022
-<br> 10 min read
-<br>source: [https://firstsiteguide.com/how-many-websites/](https://firstsiteguide.com/how-many-websites/) 
+Ogi Djuraskovic
+Updated: September 28th, 2022
+10 min read
+source: [https://firstsiteguide.com/how-many-websites/](https://firstsiteguide.com/how-many-websites/) 
 
 [2] * **From: The 50 Most Visited Websites in the World**
-<br> By Dorothy Neufeld
-<br> 2 years ago on January 27, 2021
-<br> Graphics/Design: Joyce Ma   
-<br> source: [https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/](https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/) 
+By Dorothy Neufeld
+2 years ago on January 27, 2021
+Graphics/Design: Joyce Ma    source: [https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/](https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/) 
 
 **This is the data in visual form** if you want to take a look at it [most visited website by country]
 
 <image width="800" height="450" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_2400,h_1350,x_0,y_497/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gesybxss92k4zfbag2.png" /> 
+
 
 ### this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!`
 
