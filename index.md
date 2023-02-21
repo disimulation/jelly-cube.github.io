@@ -81,11 +81,13 @@ source: [https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-wo
 
    - and probably nothing else 
 
+   - ~has 2 brain cells left.
+
  - open for contact at main email: **alex.yt2021.io@gmail.com**
 
  - any pronouns work on Discord 
    
-   - ~has 2 brain cells left.
+ 
 
  my OG website: [https://memestonks.github.io](https://memestonks.github.io)
 
