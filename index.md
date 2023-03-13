@@ -46,37 +46,39 @@ This chart shows the top 7 most visited websites:
 
 [1] * **From: The Growth of The Web (1990–2022)**
 
-Ogi Djuraskovic
+> Ogi Djuraskovic
 
-Updated: September 28th, 2022
+> Updated: September 28th, 2022
 
-10 min read
+> 10 min read
 
 source: [https://firstsiteguide.com/how-many-websites/](https://firstsiteguide.com/how-many-websites/) 
 
 [2] * **From: The 50 Most Visited Websites in the World**
 
-By Dorothy Neufeld
+> By Dorothy Neufeld
 
-2 years ago on January 27, 2021
+> 2 years ago on January 27, 2021
 
-Graphics/Design: Joyce Ma    
+> Graphics/Design: Joyce Ma    
 
 source: [https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/](https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/) 
-
-**This is the data in visual form** if you want to take a look at it [most visited website by country]
-
-<image width="800" height="450" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_2400,h_1350,x_0,y_497/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gesybxss92k4zfbag2.png" /> 
 
 **This is the data in visual form** [amount of websites in the world]
 
 <image width="500" height="450" src="http://cdn.statcdn.com/Infographic/images/normal/19058.jpeg" />
 
+**This is the data in visual form** if you want to take a look at it [most visited website by country]
 
-it's truly shocking to know that the maybe 100 or so 
-human visitors of this website might be around
+<image width="800" height="450" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_2400,h_1350,x_0,y_497/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gesybxss92k4zfbag2.png" /> 
 
-the only person to ever reach this page in their entire country. 
+> ## It's 
+> ### both fascinating and sad
+> to know that the maybe 100 or so 
+> human visitors of this one lonely website...
+
+> might be around 
+> the only person to ever reach this page in their entire country. 
 
 `8.017 billion/100 visitors` = to 1 visitor: per ~80.2 million people
 
@@ -84,15 +86,15 @@ There are 195 countries in the world (Israel exists)
 
 so there are around 4111282.05128 (4.11 million)
 
-people per country; showing that only 1/20th of a person in a 
+people per country; showing that `only 1/20th of a person in a 
 
-country will ever read this text.
+country will ever read this text.`
 
 There is also an ocean of websites out their- just waiting to be discovered.
 
 
 
-### this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!`
+### this website was made by... **Drippie#2667** (feel free to add/DM me on Discord!)
 
 **about me**: hello. 
 
