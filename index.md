@@ -9,18 +9,16 @@ You might be just one out of ~100 people to land on this webpage
 
 **are a billionth of 50%**
 in percentage form, this is around **0.00000000505051%**
-So if you just so happened to stumble across this website; you are one out of millions to do so!
+
+So if you just so happened to stumble across this website; 
+you are one out of millions to do so!
+
 `so congratulations! ;)` 
 
-every single webpage is just a tiny rock stranded in a entire sea of information and raw data
-it's truly amazing to know that the maybe 100 or so human visitors of this website might be around
-the only person to ever reach this page in their entire country. 
+every single webpage is just a tiny rock stranded in a entire
 
-`8.017 billion/100 visitors` = to 1 visitor: per ~80.2 million people <br>
-There are 195 countries in the world (Israel exists) so there are around 4111282.05128 (4.11 million)
-people per country; showing that only 1/20th of a person will ever read this text.
+sea of information and raw data.
 
-There is also an ocean of websites out their- just waiting to be discovered.
 
 Take a look at this chart showing the number of websites out there:
 
@@ -70,6 +68,29 @@ source: [https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-wo
 
 <image width="800" height="450" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_2400,h_1350,x_0,y_497/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gesybxss92k4zfbag2.png" /> 
 
+**This is the data in visual form** [amount of websites in the world]
+
+<image width="500" height="450" src="http://cdn.statcdn.com/Infographic/images/normal/19058.jpeg" />
+
+
+it's truly shocking to know that the maybe 100 or so 
+human visitors of this website might be around
+
+the only person to ever reach this page in their entire country. 
+
+`8.017 billion/100 visitors` = to 1 visitor: per ~80.2 million people
+
+There are 195 countries in the world (Israel exists) 
+
+so there are around 4111282.05128 (4.11 million)
+
+people per country; showing that only 1/20th of a person in a 
+
+country will ever read this text.
+
+There is also an ocean of websites out their- just waiting to be discovered.
+
+
 
 ### this website was made by... **Drippie#2667** `feel free to add/DM me on Discord!`
 
@@ -96,6 +117,9 @@ source: [https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-wo
 ### external soundtracks **[NCS releases]**
  
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3nI2Bkuxxzr1pY1H0cgQqo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/49APwudtUCYjMzBBjNCn0g?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 
 #### **See you later!**
 
