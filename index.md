@@ -3,6 +3,14 @@
 ### _one out of 1.98 billion websites_
 just a tiny little corner of a vast planet called the **internet**
 
+## Socials
+<a href="https://discord.gg/u2BhsFPc"><image src="https://cdn-icons-png.flaticon.com/128/2111/2111370.png" width="35" height="35"><strong style="font-size: 24;"> Our Discord (RSIN)</strong></image>
+
+<a href="https://www.reddit.com/user/dumb_idiot2r2"><image src="https://cdn-icons-png.flaticon.com/128/3670/3670226.png" width="35" height="35"><strong style="font-size: 24;"> Our Reddit (u/dumb_idiot2r2)
+</strong></image>
+
+<a href="https://twitter.com/AlexLiu00142896"><image src="https://cdn-icons-png.flaticon.com/128/3256/3256013.png" width="35" height="35"><strong style="font-size: 24;"> Our Twitter (@AlexLiu00142896)</strong></image>
+
 You might be just one out of ~100 people to land on this webpage
 
 ### the chances of you landing on this website
