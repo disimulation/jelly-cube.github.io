@@ -10,9 +10,11 @@ just a tiny little corner of a vast planet called the **internet**
 </strong></image>
 
 <a href="https://twitter.com/AlexLiu00142896"><image src="https://cdn-icons-png.flaticon.com/128/3256/3256013.png" width="35" height="35"><strong style="font-size: 24;"> Our Twitter (@AlexLiu00142896)</strong></image>
-   ### Guilded server:
+  
+
+### Guilded server:
    
-<iframe src="https://www.guilded.gg/canvas_index.html?route=%2Fcanvas%2Fembed%2Fbadge%2FWlozqg8R" width="182" height="48" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://www.guilded.gg/server-1911/groups/zP1a56R3/channels/af831353-7d48-4bf6-b731-c81628ab26fb/chat" width="555" height="355" frameborder="0" scrolling="no"></iframe>
    
    
 You might be just one out of ~100 people to land on this webpage
