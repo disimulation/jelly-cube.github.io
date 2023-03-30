@@ -15,7 +15,10 @@ just a tiny little corner of a vast planet called the **internet**
 ### Guilded server:
    
 <iframe src="https://www.guilded.gg/server-1911/groups/zP1a56R3/channels/af831353-7d48-4bf6-b731-c81628ab26fb/chat" width="555" height="355" frameborder="0" scrolling="no"></iframe>
-   
+
+### Discord server:
+
+<iframe src="https://discord.com/widget?id=1048717659753173064&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
    
 You might be just one out of ~100 people to land on this webpage
 
