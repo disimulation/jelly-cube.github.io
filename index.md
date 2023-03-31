@@ -14,11 +14,11 @@ just a tiny little corner of a vast planet called the **internet**
 
 ### Guilded server:
    
-
+<iframe src="https://www.guilded.gg/canvas_index.html?route=%2Fcanvas%2Fembed%2Fbadge%2FWlozqg8R" width="182" height="48" frameborder="0" scrolling="no"></iframe>
 
 ### Discord server:
 
-<iframe src="https://discord.com/widget?id=1048717659753173064&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<iframe src="https://discord.com/widget?id=1048717659753173064&theme=dark" width="750" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
    
 You might be just one out of ~100 people to land on this webpage
 
