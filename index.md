@@ -4,7 +4,7 @@
 just a tiny little corner of a vast planet called the **internet**
 
 ## Socials
-<a href="https://discord.gg/u2BhsFPc"><image src="https://cdn-icons-png.flaticon.com/128/2111/2111370.png" width="35" height="35"><strong style="font-size: 24;"> Our Discord (RSIN)</strong></image>
+<a href="https://discord.gg/8ahaWYpD9P"><image src="https://cdn-icons-png.flaticon.com/128/2111/2111370.png" width="35" height="35"><strong style="font-size: 24;"> Our Discord (RSIN)</strong></image>
 
 <a href="https://www.reddit.com/user/dumb_idiot2r2"><image src="https://cdn-icons-png.flaticon.com/128/3670/3670226.png" width="35" height="35"><strong style="font-size: 24;"> Our Reddit (u/dumb_idiot2r2)
 </strong></image>
@@ -14,7 +14,7 @@ just a tiny little corner of a vast planet called the **internet**
 
 ### Guilded server:
    
-<iframe src="https://www.guilded.gg/server-1911/groups/zP1a56R3/channels/af831353-7d48-4bf6-b731-c81628ab26fb/chat" width="555" height="355" frameborder="0" scrolling="no"></iframe>
+
 
 ### Discord server:
 
