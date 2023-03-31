@@ -36,7 +36,7 @@ every single webpage is just a tiny rock stranded in a entire
 
 sea of information and raw data.
 # For more information visit:
-##    [fjhlgfkjhlfjhlfjhlkjl](https:/jelly-cube/jelly-cube.github.io/figdizzsittt.md)
+##    [fjhlgfkjhlfjhlfjhlkjl](/figdizzsittt.md)
 
 
 There is also an ocean of websites out their- just waiting to be discovered.
