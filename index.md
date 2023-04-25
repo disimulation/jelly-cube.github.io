@@ -20,11 +20,9 @@ Socials
 
 [](https://www.reddit.com/user/dumb_idiot2r2) [![](https://cdn-icons-png.flaticon.com/128/3256/3256013.png) **Our Twitter (@AlexLiu00142896)**](https://twitter.com/AlexLiu00142896)
 
-[
-
-### Guilded server:
 
 ### Discord server:
+<iframe src="https://discord.com/widget?id=1048717659753173064&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 You might be just one out of ~100 people to land on this webpage
 
@@ -43,8 +41,6 @@ sea of information and raw data.
 For more information visit:
 ===========================
 
-](https://twitter.com/AlexLiu00142896)
-
 [](https://twitter.com/AlexLiu00142896)[fjhlgfkjhlfjhlfjhlkjl](/figdizzsittt.md)
 --------------------------------------------------------------------------------
 
@@ -52,36 +48,19 @@ There is also an ocean of websites out their- just waiting to be discovered.
 
 ### this website was made by... **Drippie#2667** (feel free to add/DM me on Discord!)
 
-**about me**: hello.
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/49APwudtUCYjMzBBjNCn0g?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-*   `just an amateur coder on github`
-    
-*   `Knows HTML and a bit of shell commands.`
-    
-    *   and probably nothing else
-        
-    *   ~has 2 brain cells left.
-        
-    
-    *   open for contact at main email: **alex.yt2021.io@gmail.com**
-        
-    *   any pronouns work on Discord
-        
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3nI2Bkuxxzr1pY1H0cgQqo?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 my OG website: [https://memestonks.github.io](https://memestonks.github.io)
 
 my github profile: [https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19](https://github.com/jelly-cube?tab=overview&from=2023-02-01&to=2023-02-19)
 
-### external soundtracks **\[NCS releases\]**
 
 [animation](https:/jelly-cube/jelly-cube.github.iogh-pages/fwdk.html)
 
 #### **See you later!**
 
-[animation of some random floating green cube spinning around](/animation.html)
-
-but with no outlines and 420hp animation quality
 
 **source of 3d javascript/html:** [https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) threejs: [https://threejs.org/build/three.js](https://threejs.org/build/three.js) (@license Copyright 2010-2023 Three.js Authors SPDX-License-Identifier: MIT)
 
-Footer © 2023 GitHub, Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About
