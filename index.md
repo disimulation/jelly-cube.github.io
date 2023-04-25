@@ -10,19 +10,17 @@ just a tiny little corner of a vast planet called the **internet**
 Socials
 -------
 
- [![](https://cdn-icons-png.flaticon.com/128/2111/2111370.png) **Our Discord (RSIN)**](https://discord.gg/8ahaWYpD9P)
+ [**Our Discord (RSIN)**](https://discord.gg/8ahaWYpD9P)
 
-[](https://discord.gg/8ahaWYpD9P)
 
-[](https://discord.gg/8ahaWYpD9P) [![](https://cdn-icons-png.flaticon.com/128/3670/3670226.png) **Our Reddit (u/dumb\_idiot2r2)**](https://www.reddit.com/user/dumb_idiot2r2)
+ [**Our Reddit (u/dumb\_idiot2r2)**](https://www.reddit.com/user/dumb_idiot2r2)
 
-[](https://www.reddit.com/user/dumb_idiot2r2)
 
-[](https://www.reddit.com/user/dumb_idiot2r2) [![](https://cdn-icons-png.flaticon.com/128/3256/3256013.png) **Our Twitter (@AlexLiu00142896)**](https://twitter.com/AlexLiu00142896)
+ [**Our Twitter (@AlexLiu00142896)**](https://twitter.com/AlexLiu00142896)
 
 
 ### Discord server:
-<iframe src="https://discord.com/widget?id=1048717659753173064&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<iframe src="https://discord.com/widget?id=1048717659753173064&theme=dark" width="750" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 You might be just one out of ~100 people to land on this webpage
 
@@ -34,19 +32,16 @@ So if you just so happened to stumble across this website; you are one out of mi
 
 `so congratulations! ;)`
 
-every single webpage is just a tiny rock stranded in a entire
+Too lazy to write more, why don't you just **ask ChatGPT...**?
 
-sea of information and raw data.
-
-For more information visit:
-===========================
+For more useless-badly written junk information to waste your time visit:
+=========================================================================
 
 [](https://twitter.com/AlexLiu00142896)[fjhlgfkjhlfjhlfjhlkjl](/figdizzsittt.md)
 --------------------------------------------------------------------------------
 
-There is also an ocean of websites out their- just waiting to be discovered.
 
-### this website was made by... **Drippie#2667** (feel free to add/DM me on Discord!)
+### this website was made by... **what do I put for a username?** 🥶#5801 (feel free to add/DM me on Discord!)
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/49APwudtUCYjMzBBjNCn0g?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
