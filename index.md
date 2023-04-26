@@ -28,7 +28,7 @@ go to github and make a repository`
 
 Then title it.
 
-`Go to settings, then click pages
+`Go to settings, then click pages.
 click enable`
 
 Make and `index.md` and a `_config.yml` doc.
@@ -40,6 +40,7 @@ https://pages.github.com/themes/`
 Now create your content on `index.md`!
 **It's really as simple as that! No more than 2 brain cells required!**
 
+`<iframe src="https://arras.io" width="506" height="306"></iframe>`
 You might be just one out of ~100 people to land on this webpage
 
 ### the chances of you landing on this website
