@@ -20,7 +20,25 @@ Socials
 
 
 ### Discord server:
-<iframe src="https://discord.com/widget?id=1048717659753173064&theme=dark" width="750" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<iframe src="https://discord.com/widget?id=1048717659753173064&theme=dark" width="400" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+
+`To make websites like this...
+go to github and make a repository`
+
+Then title it.
+
+`Go to settings, then click pages
+click enable`
+
+Make and `index.md` and a `_config.yml` doc.
+
+`type theme: THEME-NAME.
+the list of supported themes can be found at:
+https://pages.github.com/themes/`
+
+Now create your content on `index.md`!
+**It's really as simple as that! No more than 2 brain cells required!**
 
 You might be just one out of ~100 people to land on this webpage
 
