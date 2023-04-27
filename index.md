@@ -23,8 +23,13 @@ Socials
 <iframe src="https://discord.com/widget?id=1048717659753173064&theme=dark" width="400" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 
-`To make websites like this...
-go to github and make a repository`
+<div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+<pre>
+ To make websites like this...
+go to github and make a repository
+ </pre>
+</div>
 
 Then title it.
 
