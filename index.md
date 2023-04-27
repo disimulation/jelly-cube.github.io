@@ -40,7 +40,7 @@ https://pages.github.com/themes/`
 Now create your content on `index.md`!
 **It's really as simple as that! No more than 2 brain cells required!**
 
-<iframe src="https://arras.io" width="506" height="306" scroll="yes"></iframe>
+<iframe src="https://arras.io" width="506" height="600" scroll="yes"></iframe>
 You might be just one out of ~100 people to land on this webpage
 
 ### the chances of you landing on this website
