@@ -7,10 +7,8 @@ jelly-cube.github.io
 
 just a tiny little corner of a vast planet called the **internet**
 
-<div class="code code--small code--left aos-init aos-animate" data-aos="fade-up">
-					<pre><code class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-    
+
+				
 Socials
 -------
 
