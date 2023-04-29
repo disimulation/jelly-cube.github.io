@@ -3,14 +3,26 @@
 jelly-cube.github.io
 ====================
 
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	
+	</head>
+
+	
 ### _one out of 1.98 billion websites_
 
 just a tiny little corner of a vast planet called the **internet**
 
 
-				
+<body>	
+
+	
+	
+
+
 Socials
--------
+================
+
 
  [**Our Discord (RSIN)**](https://discord.gg/8ahaWYpD9P)
 
@@ -24,9 +36,7 @@ Socials
 ### Discord server:
 <iframe src="https://discord.com/widget?id=1048717659753173064&theme=dark" width="400" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
-<script>
-  AOS.init();
-</script>
+
 
 <div data-aos="fade-up"
      data-aos="fade-up"
@@ -89,4 +99,18 @@ my github profile: [https://github.com/jelly-cube?tab=overview&from=2023-02-01&t
 
 
 **source of 3d javascript/html:** [https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) threejs: [https://threejs.org/build/three.js](https://threejs.org/build/three.js) (@license Copyright 2010-2023 Three.js Authors SPDX-License-Identifier: MIT)
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
