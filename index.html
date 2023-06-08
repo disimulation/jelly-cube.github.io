@@ -1,234 +1,293 @@
 <!DOCTYPE html>
 
+<html><head>
+		<meta charset="utf-8">
+		<title>AOS - Animate on scroll library</title>
+		<meta name="description" content="AOS - Animate On Scroll library using CSS3">
+		<meta name="keywords" content="AOS, animate on scroll, css3 scroll animations, simple scroll animations">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+		<!-- <link rel="stylesheet" href="http://localhost:3002/dist/aos.css" /> -->
+		<link rel="stylesheet" href="dist/css/styles.css">
+
+	</head>
+	<body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
+
+		<div class="backgrounds overlay">
+			<div class="background aos-init aos-animate" data-aos="fade-in" data-aos-duration="1500" data-aos-anchor=".section--hero" style="background-image: url('img/bg.jpg');"></div>
+		</div>
+
+		<header class="hero">
+			<div class="hero-center">
+				<h1 class="hero__logo aos-init aos-animate" data-aos="zoom-in">AOS</h1>
+				<h2 class="hero__text aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">Animate On Scroll <span>Library</span></h2>
+			</div>
+			<span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
+				Scroll down <br>
+				<i class="chevron bottom"></i>
+			</span>
+			<a href="http://github.com/michalsnik/aos" target="_blank" class="octocat aos-init aos-animate" data-aos="zoom-out" data-aos-delay="1500">
+				<img src="img/github_octocat.png" alt="">
+			</a>
+		</header>
+
+		<section class="section section--code">
+			<div class="container">
+				<h2 class="section-title">Fade</h2>
+				<div class="code code--small code--left aos-init" data-aos="fade-up">
+					<pre><code class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--right aos-init" data-aos="fade-down">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-down"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--left aos-init" data-aos="fade-right">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--right aos-init" data-aos="fade-left">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--left aos-init" data-aos="fade-up-right">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--right aos-init" data-aos="fade-up-left">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--left aos-init" data-aos="fade-down-right">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-down-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--right aos-init" data-aos="fade-down-left">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-down-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section--code">
+			<div class="container">
+				<h2 class="section-title">Flip</h2>
+				<div class="code code--small code--left aos-init" data-aos="flip-left">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"flip-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--right aos-init" data-aos="flip-right">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"flip-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--left aos-init" data-aos="flip-up">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"flip-up"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--right aos-init" data-aos="flip-down">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"flip-down"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section--code">
+			<div class="container">
+				<h2 class="section-title">Zoom</h2>
+				<div class="code code--small code--left aos-init" data-aos="zoom-in">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-in"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--right aos-init" data-aos="zoom-in-up">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-in-up"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--left aos-init" data-aos="zoom-in-down">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-in-down"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--right aos-init" data-aos="zoom-in-left">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-in-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--left aos-init" data-aos="zoom-in-right">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-in-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+
+				<div class="code code--small code--right aos-init" data-aos="zoom-out">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-out"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--left aos-init" data-aos="zoom-out-up">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-out-up"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--right aos-init" data-aos="zoom-out-down">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-out-down"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--left aos-init" data-aos="zoom-out-right">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-out-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--small code--right aos-init" data-aos="zoom-out-left">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-out-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section--code">
+			<div class="container">
+				<h2 class="section-title">Different settings examples</h2>
+				<div class="code code--left aos-init" data-aos="fade-up" data-aos-duration="3000">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-duration</span>=<span class="hljs-value">"3000"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--right aos-init" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-down"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-easing</span>=<span class="hljs-value">"linear"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-duration</span>=<span class="hljs-value">"1500"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div id="example-anchor" class="code code--left aos-init" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-right"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-offset</span>=<span class="hljs-value">"300"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-easing</span>=<span class="hljs-value">"ease-in-sine"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--right aos-init" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-left"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor</span>=<span class="hljs-value">"#example-anchor"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-offset</span>=<span class="hljs-value">"500"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-duration</span>=<span class="hljs-value">"500"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--left aos-init" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-zoom-in"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-easing</span>=<span class="hljs-value">"ease-in-back"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-delay</span>=<span class="hljs-value">"300"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-offset</span>=<span class="hljs-value">"0"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--right aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"flip-left"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-easing</span>=<span class="hljs-value">"ease-out-cubic"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-duration</span>=<span class="hljs-value">"2000"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section--code">
+			<div class="container">
+				<h2 class="section-title">Anchor placement</h2>
+
+				<div class="code code--wider code--left aos-init" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"top-bottom"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--wider code--right aos-init" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"center-bottom"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--wider code--left aos-init" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"bottom-bottom"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+
+				<div class="code code--wider code--right aos-init" data-aos="fade-up" data-aos-anchor-placement="top-center">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"top-center"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--wider code--left aos-init" data-aos="fade-up" data-aos-anchor-placement="center-center">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"center-center"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+				<div class="code code--wider code--right aos-init" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"bottom-center"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="section section--more">
+			<div class="container">
+				<div class="section-group">
+					<h3>Get it</h3>
+
+					<a href="https://github.com/michalsnik/aos/archive/master.zip" class="btn"><span>Download</span></a>
+					<a href="https://github.com/michalsnik/aos" target="_blank" class="btn"><span>View on github</span></a>
+				</div>
+
+				<div class="section-group">
+					<h3>Install using Yarn, Npm, Bower</h3>
+
+					<pre><code class="hljs nginx"><span class="hljs-title">yarn</span> add aos</code></pre>
+
+					<pre><code class="hljs sql">npm <span class="hljs-operator"><span class="hljs-keyword">install</span> aos <span class="hljs-comment">--save</span></span></code></pre>
+
+					<pre><code class="hljs sql">bower <span class="hljs-operator"><span class="hljs-keyword">install</span> aos <span class="hljs-comment">--save</span></span></code></pre>
+				</div>
+
+				<div class="section-group">
+					<h3>CDN sources</h3>
+					<h4>CSS</h4>
+					<pre><code class="hljs perl">&lt;<span class="hljs-keyword">link</span> href=<span class="hljs-string">"https://unpkg.com/aos<span class="hljs-variable">@2</span>.3.1/dist/aos.css"</span> rel=<span class="hljs-string">"stylesheet"</span>&gt;</code></pre>
+
+					<h4>JS</h4>
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"https://unpkg.com/aos@2.3.1/dist/aos.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
+        </div>
+
+				<div class="section-group">
+					<h3>Initialize AOS</h3>
+					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="css">
+&nbsp;&nbsp;<span class="hljs-tag">AOS</span><span class="hljs-class">.init</span>();
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
+				</div>
+
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<!-- <script src="http://localhost:3002/dist/aos.js"></script> -->
+
+		<script>
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+		</script>
+
+		<script>
+			hljs.initHighlightingOnLoad();
+
+			$('.hero__scroll').on('click', function(e) {
+				$('html, body').animate({
+					scrollTop: $(window).height()
+				}, 1200);
+			});
+		</script>
+	
+
+</body></html>
 <html lang="en" dir="ltr" style="background-color: black; text-align: center; 
 font-family: Arial, 'Helvetica', sans-serif; color: white;">
   <head>
     <meta charset="utf-8">
-<div class="why">    
-    <style>
- 
-</style>
 
-<title>
- dumbass website
-</title>
-
-<style>
-	.why {
-	background-image:url(https://wallpaperaccess.com/full/4014646.jpg);
-	font-family: Arial, 'Helvetica', sans-serif;
-
-  background-color: black;
-  border-color: black;
-}
-		</style>
-		<img src="https://cdn-icons-png.flaticon.com/512/1093/1093514.png" width="128" height="128"
-		   data-aos="fade-up" background="transparent">
-	
-
-
-</style>
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-<h1 data-aos="fade-up-right" data-aos-delay="750"
-    style="text-align: center;">hello world!</h1>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-    AOS.init()
-</script>
-
-    
-      
-
-
-    <style>
-        h1 {
-            width: 100%;
-            font-family: Arial, 'Helvetica', sans-serif; 
-            font-weight: 600;
-
-            color: whitesmoke;
-	    
-            align-items: center; 
-            display: flex;
-            overflow-x: hidden;
-            margin: 200px 80px;
-            font-weight: 800;
-            font-size: 36px;
-            }
-        </style>
-   
-	</script>  
-
-
-
-<html style="text-align:center;">
-<title>
-  <strong>dumbass website</strong>
-</title>
-
-<head>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  
-
-  <h1 style="text-align:center;" data-aos="fade-up">Now it's time for me loose sleep making this website...</h1>
-    <br>
-    <br>
-    <br>
-      <h1 style="text-align:center;" data-aos="fade-down">if this website even works...</h1>
-	</div>
-	
-	
-	<h2 style="color: blue;" data-aos="flip-up" style="font-family: Arial, 'Helvetica', sans-serif;
-">I'm some random asian middle schooler that wants to code.</h2>
-	<br>
-	<h2 style="color: blue;" data-aos="flip-up"><strong style="font-family: Arial, 'Helvetica', sans-serif;
-">Spending maybe too much time on school ;-;</strong>
-	 GPA: 4.50+</h2>
-	<br>
-	<h2 style="color: blue;" data-aos="flip-up"><pre>Knows HTML and CSS + is planning to learn Javascript</pre></h2>
-	<br>
-	<h2 style="color: blue;" data-aos="flip-up"><pre>DM me 【🌭】if you like men</pre>
-		<pre>Discord below if you haven't noticed</pre></h2>
-
-	
-	<h1 style="font-family: monospace;">If you don't have any life and you need to touch grass to stay mentally stable,
-here are some images of grass. Touch grass.jpeg if you have to.</h1>
-	
-<div class="shit" style="text-align: center;">
-	
-  <style>
-  .shit {
-color: black;  
-opacity: 0.5621899277;
-}
-
-.shit:hover {
-opacity: 1.0;
-}
-
-</style>
-
-
-<img src="https://c1.wallpaperflare.com/preview/136/181/187/grass-green-background-nature.jpg" 
-   height="156" width="256" data-aos="flip-up" data-aos-delay="450">
-
-<img src="https://wallpaper.dog/large/5477497.jpg" 
-   height="156" width="256" data-aos="flip-up" data-aos-delay="450">
-
-<img src="https://img1.goodfon.com/wallpaper/nbig/d/36/green-grass-grass-nature-wide.jpg" 
-   height="156" width="256" data-aos="flip-up" data-aos-delay="450">
-
-
-  
-
-  
-  
-  
-  </div>
-	
-	
-</header>
-	
-	
-	
-	
-	
-
-<header>
-<div class="pls">
-	<style>
-	
-		
-		</style>
-		<img src="https://i.pinimg.com/originals/13/8d/52/138d52a8f429510e2c16bd67990dae3c.jpgv" width="128" height="128"
-		   data-aos="fade-up" background="transparent">
-	
-	<h2>
-		<strong style="color: white;">Discord: what do I put for a username? 🥶#5801</strong>
-		</h2>
-<br>
-<br>
-
-	<h2 style="color: white;" data-aos="fade-right">Discord server: </h2>
-	<a href="https://t.ly/kiql"><h2 data-aos="fade-right"> https://t.ly/kiql</h2></a>
-	<h2 style="color: white;" data-aos="fade-left">Old website: </h2>
-	<a href="https://memestonks.github.io"><h2 data-aos="fade-left"> https://memestonks.github.io</h2></a>
-	
-	
-		<img src="https://i.pinimg.com/originals/66/00/3d/66003da646438bb3c7208d317464d028.jpg" width="128" height="128"
-		   data-aos="fade-up">
-	<h1>trying not to waste my life binge watching YT/YT shorts 【😫】</h1>
-</header>	
-	
-	
-	
-	
-
-	
-<header>	
-
-	<div class="item" style="box-shadow: 5cm; color: mediumslateblue; background-color: darkgrey;" 
-  data-aos="fade-up">idk</div>
-	
-<div class="item" style="box-shadow: 5cm; color: mediumaquamarine; background-color: darkgrey;" 
-data-aos="fade-down">what to put</div>
-	
-<div class="item" style="box-shadow: 5cm; color: mediumturquoise; background-color: darkgrey;" 
-data-aos="fade-right">.here</div>
-	
-<div class="item" style="box-shadow: 5cm; color: mediumseagreen; background-color: darkgrey;"
-data-aos="fade-left">but i will work on this website in the future</div>
-	
-	
-	<img src="https://www.creativefabrica.com/wp-content/uploads/2020/04/13/
-		  Paper-airplane-icon-flat-vector-Graphics-3857072-1.jpg" width="128" height="128"
-		   data-aos="fade-up">
-	<h2>Send me an email!</h2>
-	<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?
-	compose=CllgCKCCRxghckMZphhTTQzJTHxDFddRpzWLcqWRVJFNxtmgtjBrFHGFkQWZqCfXRsWmGpLHHQq
-"><h2 data-aos="fade-right"> email at apprently.somebody@gmail.com</h2></a>
-</header>	
-	
-	
-	
-	
-	
-	<header>	
-
-	<h2 data-aos="fade-right" data-aos-delay="750"><strong>For now, bye.</strong></h2>
-	<br>
-		
-	
-	<h2 data-aos="fade-left" data-aos-delay="750"><strong>until we meet again.</strong></h2>
-<img src="https://i.pinimg.com/originals/59/c2/98/59c298061d41c06bbc939a00fbc823da.jpg"
-     width="128" height="128"
-		   
-     data-aos="fade-up">
-	<h1>all contact (Discord/Gmail) is welcome!【💬】</h1>
-
-<style>
-	.item {
-  box-sizing: border-box;
-}
-
-.item {
-  width: 500px;
-  height: 200px;
-  margin: 50px auto;
-  padding-top: 75px;
-  
-  text-align: center;
-  color: #FFF;
-  font-size: 3em;
-}
-	</style>
-    </div>
-</head>
-	</header>
-
-</html>
-	
+      <script>
+      (function (w, d, s, o, f, js, fjs) {
+        w["botsonic_widget"] = o;
+        w[o] =
+          w[o] ||
+          function () {
+            (w[o].q = w[o].q || []).push(arguments);
+          };
+        (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+        js.id = o;
+        js.src = f;
+        js.async = 1;
+        fjs.parentNode.insertBefore(js, fjs);
+      })(window, document, "script", "Botsonic", "https://d1m9uqhmlogh4h.cloudfront.net/CDN/botsonic.min.js");
+      Botsonic("init", {
+        serviceBaseUrl: "https://api.writesonic.com",
+        token: "e4bc42c5-2e4e-49f0-bf84-9e3a16c0a905",
+      });
+    </script>
