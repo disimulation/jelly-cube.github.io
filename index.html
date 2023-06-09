@@ -1,246 +1,1143 @@
 <!DOCTYPE html>
 
-<html><head>
-		<meta charset="utf-8">
-		<title>AOS - Animate on scroll library</title>
-		<meta name="description" content="AOS - Animate On Scroll library using CSS3">
-		<meta name="keywords" content="AOS, animate on scroll, css3 scroll animations, simple scroll animations">
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-		<!-- <link rel="stylesheet" href="http://localhost:3002/dist/aos.css" /> -->
-		<link rel="stylesheet" href="dist/css/styles.css">
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>🤖 ChatBot | AI Chat Bot Software for Your Website</title>
+  <meta name="description" content="Automate your customer service with ChatBot and never miss a chance to sell or help your customers. Build your own chatbots from scratch, no technical skills needed!">
 
-	</head>
-	<body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
+  
+  <link rel="canonical" href="https://www.chatbot.com/">
+  
+  <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-EEYCT053JQ&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://static.hotjar.com/c/hotjar-1894360.js?sv=7"></script>
+	<script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://cdn.chatbot.com/widget/plugin.js"></script>
+	<script async="" src="//livechat.containers.piwik.pro/28a0a095-db17-4f24-8d11-19c9de6721cc.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NQCSXSR"></script><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [{"@context":"https://schema.org","@type":"Corporation","brand":"ChatBot","name":"ChatBot","sameAs":["https://twitter.com/chatbotcom"],"url":"https://www.chatbot.com/"}]
+  }
+  </script>
 
-		<div class="backgrounds overlay">
-			<div class="background aos-init aos-animate" data-aos="fade-in" data-aos-duration="1500" data-aos-anchor=".section--hero" style="background-image: url('img/bg.jpg');"></div>
-		</div>
+  
 
-		<header class="hero">
-			<div class="hero-center">
-				<h1 class="hero__logo aos-init aos-animate" data-aos="zoom-in">AOS</h1>
-				<h2 class="hero__text aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">Animate On Scroll <span>Library</span></h2>
-			</div>
-			<span class="hero__scroll aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
-				Scroll down <br>
-				<i class="chevron bottom"></i>
-			</span>
-			<a href="http://github.com/michalsnik/aos" target="_blank" class="octocat aos-init aos-animate" data-aos="zoom-out" data-aos-delay="1500">
-				<img src="img/github_octocat.png" alt="">
-			</a>
-		</header>
+  <link rel="icon" href="/favicon.ico">
 
-		<section class="section section--code">
-			<div class="container">
-				<h2 class="section-title">Fade</h2>
-				<div class="code code--small code--left aos-init" data-aos="fade-up">
-					<pre><code class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--right aos-init" data-aos="fade-down">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-down"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--left aos-init" data-aos="fade-right">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--right aos-init" data-aos="fade-left">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--left aos-init" data-aos="fade-up-right">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--right aos-init" data-aos="fade-up-left">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--left aos-init" data-aos="fade-down-right">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-down-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--right aos-init" data-aos="fade-down-left">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-down-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-			</div>
-		</section>
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🤖 ChatBot | AI Chat Bot Software for Your Website">
+  <meta property="og:description" content="Automate your customer service with ChatBot and never miss a chance to sell or help your customers. Build your own chatbots from scratch, no technical skills needed!">
+  <meta property="og:url" content="https://www.chatbot.com/">
+  <meta property="og:site_name" content="ChatBot">
 
-		<section class="section section--code">
-			<div class="container">
-				<h2 class="section-title">Flip</h2>
-				<div class="code code--small code--left aos-init" data-aos="flip-left">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"flip-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--right aos-init" data-aos="flip-right">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"flip-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--left aos-init" data-aos="flip-up">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"flip-up"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--right aos-init" data-aos="flip-down">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"flip-down"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-			</div>
-		</section>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:description" content="Automate your customer service with ChatBot and never miss a chance to sell or help your customers. Build your own chatbots from scratch, no technical skills needed!">
+  <meta name="twitter:title" content="🤖 ChatBot | AI Chat Bot Software for Your Website">
+  <meta name="twitter:site" content="@chatbotcom">
 
-		<section class="section section--code">
-			<div class="container">
-				<h2 class="section-title">Zoom</h2>
-				<div class="code code--small code--left aos-init" data-aos="zoom-in">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-in"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--right aos-init" data-aos="zoom-in-up">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-in-up"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--left aos-init" data-aos="zoom-in-down">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-in-down"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--right aos-init" data-aos="zoom-in-left">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-in-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--left aos-init" data-aos="zoom-in-right">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-in-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
+  
+      
 
-				<div class="code code--small code--right aos-init" data-aos="zoom-out">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-out"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--left aos-init" data-aos="zoom-out-up">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-out-up"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--right aos-init" data-aos="zoom-out-down">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-out-down"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--left aos-init" data-aos="zoom-out-right">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-out-right"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--small code--right aos-init" data-aos="zoom-out-left">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"zoom-out-left"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-			</div>
-		</section>
+      
+      
+      
 
-		<section class="section section--code">
-			<div class="container">
-				<h2 class="section-title">Different settings examples</h2>
-				<div class="code code--left aos-init" data-aos="fade-up" data-aos-duration="3000">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-duration</span>=<span class="hljs-value">"3000"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--right aos-init" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-down"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-easing</span>=<span class="hljs-value">"linear"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-duration</span>=<span class="hljs-value">"1500"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div id="example-anchor" class="code code--left aos-init" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-right"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-offset</span>=<span class="hljs-value">"300"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-easing</span>=<span class="hljs-value">"ease-in-sine"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--right aos-init" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-left"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor</span>=<span class="hljs-value">"#example-anchor"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-offset</span>=<span class="hljs-value">"500"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-duration</span>=<span class="hljs-value">"500"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--left aos-init" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-zoom-in"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-easing</span>=<span class="hljs-value">"ease-in-back"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-delay</span>=<span class="hljs-value">"300"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-offset</span>=<span class="hljs-value">"0"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--right aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"flip-left"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-easing</span>=<span class="hljs-value">"ease-out-cubic"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-duration</span>=<span class="hljs-value">"2000"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-			</div>
-		</section>
+      <meta property="og:image" content="https://www.chatbot.com/og-images/home-header.a4642a219da5b3ab94ecf03938b3adf0c636d97639eb0101809050398e97636c.png">
+      <meta name="twitter:image" content="https://www.chatbot.com/og-images/home-header.a4642a219da5b3ab94ecf03938b3adf0c636d97639eb0101809050398e97636c.png">
+  
 
-		<section class="section section--code">
-			<div class="container">
-				<h2 class="section-title">Anchor placement</h2>
+  
+    
+      <script src="https://cdn.livechatinc.com/partners/tracking/track.js" async=""></script>
+    
+  
 
-				<div class="code code--wider code--left aos-init" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"top-bottom"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--wider code--right aos-init" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"center-bottom"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--wider code--left aos-init" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"bottom-bottom"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
+  <script>
+      scrollOffsetFunction = function() {
+        var navElements = document.getElementsByClassName("c-navbar");
+        if (typeof navElements[0] !== "undefined") {
+          var navRect = navElements[0].getBoundingClientRect();
+          var navStyle = getComputedStyle(navElements[0]);
+          if (navStyle.position === "sticky" || navStyle.position === "fixed") {
+            return navRect.bottom - navRect.top + 30;
+          }
+        }
+        return 0;
+      }
+    </script>
 
-				<div class="code code--wider code--right aos-init" data-aos="fade-up" data-aos-anchor-placement="top-center">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"top-center"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--wider code--left aos-init" data-aos="fade-up" data-aos-anchor-placement="center-center">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"center-center"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
-				<div class="code code--wider code--right aos-init" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">data-aos</span>=<span class="hljs-value">"fade-up"</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attribute">data-aos-anchor-placement</span>=<span class="hljs-value">"bottom-center"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre>
-				</div>
+  
 
-			</div>
-		</section>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NQCSXSR');</script>
 
-		<section class="section section--more">
-			<div class="container">
-				<div class="section-group">
-					<h3>Get it</h3>
+  
 
-					<a href="https://github.com/michalsnik/aos/archive/master.zip" class="btn"><span>Download</span></a>
-					<a href="https://github.com/michalsnik/aos" target="_blank" class="btn"><span>View on github</span></a>
-				</div>
+  
+    
+      <link rel="preload" as="style" href="/dist/css/main.7ba848b621ce5f7f84dcb110f8e21a2321dc216772dc6aad662a8f00f7c0399b.css">
+      <link rel="stylesheet" href="/dist/css/main.7ba848b621ce5f7f84dcb110f8e21a2321dc216772dc6aad662a8f00f7c0399b.css">
+    
+  
 
-				<div class="section-group">
-					<h3>Install using Yarn, Npm, Bower</h3>
+  
+<style id="custom-cursor" type="text/css">body button, body [type='button'], body input[type='reset'], body input[type='submit'], body [role="button"], ::-webkit-search-cancel-button, ::-webkit-search-decoration, ::-webkit-scrollbar-button, ::-webkit-file-upload-button, [role^=button], .cc_pointer, [type="search"]::-webkit-search-cancel-button, a, select, [type="search"]::-webkit-search-decoration, .paper-button, .ytp-progress-bar-container, input[type=submit], :link, :visited, a > *, img,  ::-webkit-scrollbar-button, .ogdlpmhglpejoiomcodnpjnfgcpmgale_pointer, ::-webkit-file-upload-button, .ytp-volume-panel, #myogdlpmhglpejoiomcodnpjnfgcpmgale .icon, body .custom-cursor-on-hover {cursor: url("data:image/png;base64,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") 14 0, pointer !important;} html,body,body select,body .custom-cursor-default-hover {cursor: url("data:image/png;base64,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") 0 0, auto !important;}</style><script type="text/javascript" src="https://cdn.chatbot.com/widget/polyfill.js" async=""></script><script type="text/javascript" src="https://cdn.chatbot.com/widget/v2/plugin.js" async=""></script><style id="chatbot-stylesheet" type="text/css">html.chatbot-mobile-opened {
+    height: 100vh;
+}
 
-					<pre><code class="hljs nginx"><span class="hljs-title">yarn</span> add aos</code></pre>
+html.chatbot-mobile-opened > body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: hidden;
+}
+</style></head>
 
-					<pre><code class="hljs sql">npm <span class="hljs-operator"><span class="hljs-keyword">install</span> aos <span class="hljs-comment">--save</span></span></code></pre>
+<body class="js-focus-visible" cz-shortcut-listen="true"><script type="text/javascript">
+  (function(window, document, dataLayerName, id) {
+  window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+  function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+  var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+  var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+  tags.async=!0,tags.src="//livechat.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+  !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+  })(window, document, 'dataLayer', '28a0a095-db17-4f24-8d11-19c9de6721cc');
+  </script>
+  <noscript><iframe src="//livechat.containers.piwik.pro/28a0a095-db17-4f24-8d11-19c9de6721cc/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQCSXSR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-					<pre><code class="hljs sql">bower <span class="hljs-operator"><span class="hljs-keyword">install</span> aos <span class="hljs-comment">--save</span></span></code></pre>
-				</div>
+  
 
-				<div class="section-group">
-					<h3>CDN sources</h3>
-					<h4>CSS</h4>
-					<pre><code class="hljs perl">&lt;<span class="hljs-keyword">link</span> href=<span class="hljs-string">"https://unpkg.com/aos<span class="hljs-variable">@2</span>.3.1/dist/aos.css"</span> rel=<span class="hljs-string">"stylesheet"</span>&gt;</code></pre>
+<aside class="u-border-b u-border-gray-900 lg:u-block u-bg-white " hidden="">
+    <div class="u-flex u-justify-center">
+        <p class="u-text-p9 u-text-gray-500 u-my-sm u-Mr-xs">See our other products:</p>
+        <a href="https://www.livechat.com/?utm_source=chatbot.com&amp;utm_medium=referral&amp;utm_campaign=productbar" target="_blank" class="c-productbar__livechat u-flex u-flex-row u-items-center u-hover-none u-Mr-xs" data-controller="track" data-track-category="Proudct Bar" data-track-action="Clicked on LiveChat" data-action="click->track#send">
+            <svg width="16" height="16" fill="none" style="margin-right: 3px;" xmlns="http://www.w3.org/2000/svg"><path d="M15.2 10c-.1.9-.5 1.8-1.2 2.4-.7.7-1.5 1-2.5 1h-2L5.7 16v-2.6l3.8-2.6h2c.3 0 .6 0 .8-.3.2-.2.4-.5.4-.8v-6l-.3-.7a1 1 0 00-.7-.3 63.2 63.2 0 00-8.1 0 1 1 0 00-.7.4c-.2.1-.3.4-.3.7-.2 2-.2 4 0 6 0 .3.1.5.3.7.3.2.5.3.8.3h2v2.6h-2c-.9 0-1.8-.3-2.4-1C.6 11.8.2 11 0 10 0 8 0 5.7 0 3.5c0-.8.5-1.7 1-2.3.7-.6 1.5-1 2.3-1a57 57 0 018.4 0c.9 0 1.7.4 2.3 1 .6.6 1 1.5 1 2.4.2 2 .2 4.2 0 6.3z" fill="#C6C6CA"></path></svg>
+            <p class="u-text-p9 u-text-p9 u-mb-0 u-text-gray-700"><span class="c-productbar__name u-text-gray-700">LiveChat</span> - Connect with customers</p>
+        </a>
+        <a href="https://www.helpdesk.com/?utm_source=chatbot.com&amp;utm_medium=referral&amp;utm_campaign=productbar" target="_blank" class="c-productbar__helpdesk u-flex u-flex-row u-items-center u-hover-none u-Mr-xs" data-controller="track" data-track-category="Proudct Bar" data-track-action="Clicked on HelpDesk" data-action="click->track#send">
+            <svg width="17" height="14" fill="none" style="margin-right: 3px;" xmlns="http://www.w3.org/2000/svg"><path d="M8 6.1l4.1-3.5h-4l-4.3.1a1.1 1.1 0 00-1 1l-.2 3v.6l.1 3a1.1 1.1 0 001 1h8.6a1.1 1.1 0 001-1l.1-2.8L16 5.2v5.3a3.7 3.7 0 01-3.5 3.3 59.5 59.5 0 01-9 0 3.7 3.7 0 01-3.4-3.4L0 7.3v-.6l.1-3.1A3.7 3.7 0 013.6.2L8 0h8v2.6l-8 7-3.7-3.3 2-1.7L8 6.1z" fill="#C6C6CA"></path></svg>
+            <p class="u-text-p9 u-text-p9 u-mb-0 u-text-gray-700"><span class="c-productbar__name u-text-gray-700">HelpDesk</span> - Support customers with tickets</p>
+        </a>
+        <a href="https://www.knowledgebase.com/?utm_source=chatbot.com&amp;utm_medium=referral&amp;utm_campaign=productbar" target="_blank" class="c-productbar__knowledgebase u-flex u-flex-row u-items-center u-hover-none" data-controller="track" data-track-category="Proudct Bar" data-track-action="Clicked on KnowledgeBase" data-action="click->track#send">
+            <svg width="16" height="14" style="margin-right: 3px;" xmlns="http://www.w3.org/2000/svg"><path d="M13.4 2.7V0h-.1C11 0 9.2 1.5 8 2.7H8C6.7 1.5 5 0 2.6 0h-.1v2.7H0v4.6l.1 3.1a3.7 3.7 0 003.5 3.4 62.6 62.6 0 008.8 0 3.7 3.7 0 003.5-3.4l.1-3.1V2.7h-2.6zm0 4.6l-.1 3a1.1 1.1 0 01-1 1H3.7a1.1 1.1 0 01-1-1c-.2-.9-.2-2-.2-3V2.7c1.9 0 3.8 2 4.3 2.9L8 7l1-1.5c.6-.8 2.5-2.8 4.4-3v4.7z" fill="#C6C6CA"></path></svg>
+            <p class="u-text-p9 u-text-p9 u-mb-0 u-text-gray-700"><span class="c-productbar__name u-text-gray-700">KnowledgeBase</span> - Guide and educate customers</p>
+        </a>
+    </div>
+</aside>
 
-					<h4>JS</h4>
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"https://unpkg.com/aos@2.3.1/dist/aos.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
+<div class="c-navbar u-border-b u-bg-white  " data-controller="show">
+  <div class="c-navbar__content">
+    
+    
+
+    <a href="/" class="c-navbar__logo"><img src="/chatbot-logo.svg" width="141" height="33" alt="ChatBot logo"></a>
+
+    <button class="c-navbar__button " aria-expanded="false" data-action="show#toggle">
+        <span data-target="show.content">Menu</span>
+        <span hidden="" data-target="show.content">Close</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" width="20" class="u-ml-xs">
+            <g fill="none" stroke="#1b1b20" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M1 3.5h15" class="c-navbar__button__bar"></path>
+                <path d="M1 8h15" class="c-navbar__button__bar"></path>
+                <path d="M1 12.5h15" class="c-navbar__button__bar"></path>
+            </g>
+        </svg>
+    </button>
+
+    <nav class="c-menu u-bg-white  lg:u-ml-2xl" data-controller="menu" data-target="show.content" hidden="">
+      <ul>
+        <li data-target="menu.root">
+          <button class="c-menu__item v--top" data-target="menu.top">Product<span class="c-menu__arrow"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d="M12.67 6L8 10.67 3.33 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+          <div class="c-menu__sub">
+            <div class="c-menu__split">
+            <div>
+                <ul>
+                <li><a href="/benefits/" class="c-menu__item">Benefits<span class="c-menu_item v--description"><small>See what you can gain</small></span></a></li>
+                <li><a href="/features/" class="c-menu__item">Features<span class="c-menu_item v--description"><small>Everything you need</small></span></a></li>
+                <li><a href="/features/visual-builder/" class="c-menu__item">Visual Builder<span class="c-menu_item v--description"><small>Create your ideal chatbot</small></span></a></li>
+                <li><a href="/features/dynamic-responses/" class="c-menu__item">Dynamic Responses<span class="c-menu_item v--description"><small>Boost customer engagement</small></span></a></li>
+                <li><a href="/features/ai/" class="c-menu__item">Artificial Intelligence<span class="c-menu_item v--description"><small>Improve with every chat</small></span></a></li>
+                <li><a href="/features/analytics/" class="c-menu__item">Analytics<span class="c-menu_item v--description"><small>Make data-backed decisions</small></span></a></li>
+                <li><a href="/features/connect/" class="c-menu__item">Connect<span class="c-menu_item v--description"><small>Be where your customers are</small></span></a></li>
+                </ul>
+            </div>
+              <div>
+                <p class="c-menu__header">Solutions</p>
+                <ul>
+                  <li><a href="/solutions/chatbot-for-marketing/" class="c-menu__item v--m-button"><span class="c-menu__icon u-mr-sm v--single-color"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M11 5.71421V19.0504C10.9997 19.4642 10.8531 19.8646 10.5861 20.1811C10.3191 20.4976 9.9488 20.7099 9.54041 20.7805C9.13203 20.8511 8.71178 20.7756 8.35369 20.5673C7.99561 20.3589 7.72267 20.031 7.58297 19.6415L5.43597 13.5015M5.43597 13.5015C4.58719 13.1412 3.88915 12.5002 3.46 11.6851C3.03084 10.8701 2.89692 9.932 3.0809 9.0297C3.26488 8.12739 3.75546 7.31625 4.46962 6.73355C5.18378 6.15085 6.07765 5.83237 6.99997 5.83202H8.83197C12.932 5.83202 16.457 4.60003 18 2.83691V16.8141C16.457 15.051 12.933 13.819 8.83197 13.819H6.99997C6.4626 13.8198 5.93062 13.7111 5.43597 13.5015ZM18 12.8206C18.7956 12.8206 19.5587 12.505 20.1213 11.9434C20.6839 11.3817 21 10.6198 21 9.8255C21 9.03114 20.6839 8.26933 20.1213 7.70764C19.5587 7.14594 18.7956 6.83039 18 6.83039V12.8206Z" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="24" height="24" fill="white"></rect>
+</clipPath>
+</defs>
+</svg>
+</span>Marketing</a></li>
+                  <li><a href="/solutions/chatbot-for-sales/" class="c-menu__item v--m-button"><span class="c-menu__icon u-mr-sm v--single-color"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M3 2.71948H5L5.4 4.71622M5.4 4.71622H21L17 12.7032H7M5.4 4.71622L7 12.7032M7 12.7032L4.707 14.9924C4.077 15.6214 4.523 16.6966 5.414 16.6966H17M17 16.6966C16.4696 16.6966 15.9609 16.907 15.5858 17.2815C15.2107 17.6559 15 18.1638 15 18.6934C15 19.2229 15.2107 19.7308 15.5858 20.1053C15.9609 20.4797 16.4696 20.6901 17 20.6901C17.5304 20.6901 18.0391 20.4797 18.4142 20.1053C18.7893 19.7308 19 19.2229 19 18.6934C19 18.1638 18.7893 17.6559 18.4142 17.2815C18.0391 16.907 17.5304 16.6966 17 16.6966ZM9 18.6934C9 19.2229 8.78929 19.7308 8.41421 20.1053C8.03914 20.4797 7.53043 20.6901 7 20.6901C6.46957 20.6901 5.96086 20.4797 5.58579 20.1053C5.21071 19.7308 5 19.2229 5 18.6934C5 18.1638 5.21071 17.6559 5.58579 17.2815C5.96086 16.907 6.46957 16.6966 7 16.6966C7.53043 16.6966 8.03914 16.907 8.41421 17.2815C8.78929 17.6559 9 18.1638 9 18.6934Z" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="24" height="24" fill="white"></rect>
+</clipPath>
+</defs>
+</svg>
+</span>Sales</a></li>
+                  <li><a href="/solutions/chatbot-for-support/" class="c-menu__item v--m-button"><span class="c-menu__icon u-mr-sm v--single-color"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M5.121 17.3819C7.21942 16.1977 9.58958 15.5772 12 15.5808C14.5 15.5808 16.847 16.2348 18.879 17.3819M15 9.59063C15 10.385 14.6839 11.1468 14.1213 11.7085C13.5587 12.2702 12.7956 12.5857 12 12.5857C11.2044 12.5857 10.4413 12.2702 9.87868 11.7085C9.31607 11.1468 9 10.385 9 9.59063C9 8.79628 9.31607 8.03446 9.87868 7.47277C10.4413 6.91108 11.2044 6.59552 12 6.59552C12.7956 6.59552 13.5587 6.91108 14.1213 7.47277C14.6839 8.03446 15 8.79628 15 9.59063ZM21 11.5874C21 12.7673 20.7672 13.9357 20.3149 15.0259C19.8626 16.116 19.1997 17.1066 18.364 17.9409C17.5282 18.7753 16.5361 19.4372 15.4442 19.8887C14.3522 20.3403 13.1819 20.5727 12 20.5727C10.8181 20.5727 9.64778 20.3403 8.55585 19.8887C7.46392 19.4372 6.47177 18.7753 5.63604 17.9409C4.80031 17.1066 4.13738 16.116 3.68508 15.0259C3.23279 13.9357 3 12.7673 3 11.5874C3 9.20431 3.94821 6.91886 5.63604 5.23379C7.32387 3.54871 9.61305 2.60205 12 2.60205C14.3869 2.60205 16.6761 3.54871 18.364 5.23379C20.0518 6.91886 21 9.20431 21 11.5874Z" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="24" height="24" fill="white"></rect>
+</clipPath>
+</defs>
+</svg>
+</span>Support</a></li>
+                  <li><a href="/solutions/chatbot-for-education/" class="c-menu__item v--m-button"><span class="c-menu__icon u-mr-sm v--single-color"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M8 20.4568V12.969L12 10.7507M12 14.4666L21 9.47475L12 4.48291L3 9.47475L12 14.4666ZM12 14.4666L18.16 11.0502C18.9705 13.1049 19.2005 15.3423 18.825 17.5186C16.2886 17.7644 13.8972 18.8131 12 20.5117C10.1031 18.8133 7.71208 17.7646 5.176 17.5186C4.8002 15.3423 5.03023 13.1048 5.841 11.0502L12 14.4666Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="24" height="24" fill="white"></rect>
+</clipPath>
+</defs>
+</svg>
+</span>Education</a></li>
+                  <li><a href="/chatbot-for-enterprise/" class="c-menu__item v--m-button"><span class="c-menu__icon u-mr-sm v--single-color"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 11h2a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v3M8 4v1.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 004 0 2 2 0 012-2h1m-5 12.5V18a2 2 0 012-2h3m1-4a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>Enterprise</a></li>
+                  <li><a href="/chatbot-for-healthcare/" class="c-menu__item v--m-button"><span class="c-menu__icon u-mr-sm v--single-color"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M4.31804 6.7579C3.90017 7.17509 3.5687 7.67035 3.34255 8.21543C3.1164 8.76051 3 9.34472 3 9.93471C3 10.5247 3.1164 11.1089 3.34255 11.654C3.5687 12.1991 3.90017 12.6943 4.31804 13.1115L12 20.781L19.682 13.1115C20.526 12.269 21.0001 11.1262 21.0001 9.93471C21.0001 8.74318 20.526 7.60044 19.682 6.7579C18.8381 5.91536 17.6935 5.44203 16.5 5.44203C15.3066 5.44203 14.162 5.91536 13.318 6.7579L12 8.07375L10.682 6.7579C10.2642 6.34072 9.7681 6.00979 9.22213 5.784C8.67616 5.55822 8.09099 5.44202 7.50004 5.44202C6.90909 5.44202 6.32392 5.55822 5.77795 5.784C5.23198 6.00979 4.7359 6.34072 4.31804 6.7579Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="24" height="24" fill="white"></rect>
+</clipPath>
+</defs>
+</svg>
+</span>Healthcare</a></li>
+                </ul>
+              </div>
+            </div>
+            <a href="https://accounts.chatbot.com/signup?source_id=menu_cta&amp;source_url=https://www.chatbot.com/&amp;source_type=website" class="c-menu__foot-action  v--only-desktop">
+              Start a free 14-day trial<svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d="M14 8H2m7.33-4.67L14 8 9.33 3.33zM14 8l-4.67 4.67L14 8z" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </a>
+          </div>
+        </li>
+
+        <li data-target="menu.root">
+          <a class="c-menu__item v--top" href="/pricing/" data-target="menu.top">Pricing</a>
+        </li>
+
+        <li data-target="menu.root">
+          <button class="c-menu__item v--top" data-target="menu.top">Integrations<span class="c-menu__arrow"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d="M12.67 6L8 10.67 3.33 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+          <div class="c-menu__sub v--single">
+            <div>
+              <div>
+                <ul>
+                  <li><a href="/integrations/chat-widget/" class="c-menu__item">
+                    <span class="c-menu__icon u-mr-sm"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.2727 10.9888V12.7321C16.275 12.8503 16.2429 12.9667 16.1802 13.0673C16.1176 13.168 16.027 13.2487 15.9193 13.2999C14.6924 13.8819 13.3557 14.2028 11.9956 14.2417C10.6366 14.2039 9.30068 13.8846 8.07421 13.3043C7.96553 13.2529 7.87416 13.1716 7.81107 13.0701C7.74798 12.9686 7.71585 12.8512 7.71854 12.7321V10.9888C7.7215 10.9089 7.74408 10.831 7.78434 10.7617C7.82459 10.6924 7.88131 10.6338 7.94958 10.5911C8.01785 10.5483 8.09562 10.5227 8.17617 10.5163C8.25672 10.51 8.33762 10.5231 8.41188 10.5546C9.54285 11.0472 10.7602 11.3165 11.9956 11.3473C13.2314 11.3178 14.4495 11.0501 15.5816 10.5591C15.6554 10.5282 15.7357 10.5153 15.8156 10.5217C15.8955 10.528 15.9727 10.5534 16.0405 10.5956C16.1084 10.6378 16.1649 10.6956 16.2054 10.764C16.2458 10.8325 16.2689 10.9096 16.2727 10.9888Z" fill="#0066FF"></path>
+<path d="M20.8964 15.0722C20.805 16.13 20.3122 17.1144 19.5172 17.8276C18.7221 18.5409 17.6836 18.9302 16.6103 18.9173H14.2467L9.74452 21.8117V18.9173L14.2467 16.0229H16.6148C16.9499 16.0349 17.2771 15.9206 17.5303 15.7033C17.7835 15.4859 17.9439 15.1816 17.979 14.8518C18.1166 12.627 18.1053 10.3957 17.9452 8.17239C17.9181 7.87582 17.784 7.5988 17.5675 7.39195C17.3509 7.1851 17.0663 7.06223 16.7657 7.0458C15.2304 6.95229 13.6141 6.8944 11.9956 6.8944C10.3771 6.8944 8.76079 6.94784 7.22555 7.05471C6.92494 7.07114 6.64034 7.19401 6.42376 7.40086C6.20718 7.60771 6.07309 7.88473 6.04598 8.1813C5.88587 10.4046 5.87459 12.6359 6.01221 14.8607C6.04946 15.1889 6.21074 15.491 6.46372 15.7065C6.71671 15.9221 7.0427 16.0351 7.37637 16.0229H9.74452V18.9173H7.38087C6.30876 18.9279 5.27222 18.5372 4.47903 17.8237C3.68584 17.1102 3.19461 16.1266 3.1038 15.07C2.95492 12.697 2.9662 10.3168 3.13757 7.94529C3.22266 6.96185 3.66028 6.04086 4.37148 5.34846C5.08269 4.65606 6.02066 4.23783 7.0162 4.16921C8.61897 4.05566 10.3073 4 11.9956 4C13.6839 4 15.3722 4.05566 16.975 4.16921C17.9736 4.23606 18.9148 4.65466 19.6281 5.34908C20.3413 6.0435 20.7793 6.96775 20.8627 7.9542C21.0337 10.3235 21.045 12.7014 20.8964 15.0722V15.0722Z" fill="#0066FF"></path>
+</svg>
+</span>Chat Widget<span class="c-menu_item v--description"><small>Support website visitors 24/7</small></span>
+                  </a></li>
+                  <li><a href="/integrations/livechat/" class="c-menu__item">
+                    <span class="c-menu__icon u-mr-sm"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d="M20.89 14.19a4.25 4.25 0 01-4.29 3.88h-2.36L9.74 21v-2.93l4.5-2.92h2.37a1.32 1.32 0 001.36-1.18c.14-2.25.13-4.5-.03-6.75a1.25 1.25 0 00-1.18-1.14 78.1 78.1 0 00-9.54 0 1.25 1.25 0 00-1.18 1.15 51.1 51.1 0 00-.03 6.75 1.32 1.32 0 001.36 1.17h2.37v2.92H7.38A4.25 4.25 0 013.1 14.2c-.15-2.4-.13-4.8.04-7.2A4.18 4.18 0 017 3.17a70.3 70.3 0 019.96 0A4.18 4.18 0 0120.85 7c.17 2.39.19 4.8.04 7.19z" fill="#FF5100"></path></svg></span>LiveChat<span class="c-menu_item v--description"><small>Get closer to your customers</small></span>
+                  </a></li>
+                  <li><a href="/integrations/helpdesk/" class="c-menu__item">
+                    <span class="c-menu__icon u-mr-sm"><svg fill="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m12 11.015 4.583-4.044H12c-1.622 0-3.236.055-4.77.163-.3.018-.584.144-.8.356-.215.213-.35.496-.377.8a45.659 45.659 0 0 0-.128 3.376v.668c0 1.202.05 2.402.126 3.367.028.304.162.587.378.8.217.211.5.337.801.354 3.177.222 6.365.222 9.542 0 .3-.017.584-.143.8-.355a1.28 1.28 0 0 0 .377-.8c.072-.914.115-2.036.124-3.172L21 9.943v2.578c0 1.214-.056 2.42-.133 3.41a4.28 4.28 0 0 1-1.233 2.674 4.156 4.156 0 0 1-2.65 1.212A65.651 65.651 0 0 1 12 20c-1.688 0-3.375-.06-4.98-.174a4.159 4.159 0 0 1-2.651-1.212 4.28 4.28 0 0 1-1.234-2.676A48.179 48.179 0 0 1 3 12.334v-.668c0-1.282.056-2.564.135-3.607A4.278 4.278 0 0 1 4.37 5.386a4.153 4.153 0 0 1 2.65-1.21A69.245 69.245 0 0 1 12 4h9v2.971l-9 7.936-4.205-3.705 2.21-1.945L12 11.015Z" fill="#2FC774"></path></svg>
+</span>HelpDesk<span class="c-menu_item v--description"><small>Scale your support services</small></span>
+                  </a></li>
+                  <li><a href="/integrations/facebook-messenger/" class="c-menu__item">
+                    <span class="c-menu__icon u-mr-sm"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3C6.93075 3 3 6.71442 3 11.7292C3 14.3525 4.0755 16.6203 5.826 18.1862C5.97225 18.3166 6.06225 18.5011 6.06675 18.6991L6.11625 20.301C6.132 20.8117 6.6585 21.1446 7.1265 20.9377L8.913 20.1502C9.06375 20.0827 9.23475 20.0715 9.3945 20.1142C10.2158 20.3392 11.0888 20.4607 12 20.4607C17.0693 20.4607 21 16.7463 21 11.7315C21 6.71667 17.0693 3 12 3Z" fill="url(#paint0_radial)"></path>
+<path d="M6.59536 14.2827L9.23911 10.0891C9.65986 9.42093 10.5599 9.25669 11.1921 9.72915L13.2959 11.3063C13.4894 11.4502 13.7549 11.4502 13.9461 11.304L16.7856 9.1487C17.1636 8.86073 17.6586 9.31519 17.4066 9.7179L14.7606 13.9093C14.3399 14.5775 13.4399 14.7417 12.8076 14.2692L10.7039 12.6921C10.5104 12.5482 10.2449 12.5482 10.0536 12.6944L7.21411 14.8497C6.83611 15.1377 6.34111 14.6855 6.59536 14.2827Z" fill="white"></path>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(6.465 20.8988) scale(19.6128 19.6111)">
+<stop stop-color="#0099FF"></stop>
+<stop offset="0.6098" stop-color="#A033FF"></stop>
+<stop offset="0.9348" stop-color="#FF5280"></stop>
+<stop offset="1" stop-color="#FF7061"></stop>
+</radialGradient>
+</defs>
+</svg>
+</span>Facebook Messenger<span class="c-menu_item v--description"><small>Engage your followers</small></span>
+                  </a></li>
+                  <li><a href="/integrations/shopify/" class="c-menu__item">
+                    <span class="c-menu__icon u-mr-sm"><svg fill="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path d="M0 0h24v24H0z"></path>
+  <path d="M20.349 4.535c0-.14-.14-.21-.21-.21h-1.813L16.79 2.792c-.14-.14-.419-.07-.489-.07 0 0-.279.07-.697.21a7.201 7.201 0 00-.35-.838C14.769 1.186 14 .698 13.094.698h-.21l-.069-.07C12.464.21 11.977 0 11.35 0c-1.117 0-2.303.837-3.21 2.372-.697 1.047-1.186 2.302-1.325 3.349-1.326.419-2.233.698-2.302.698-.698.21-.698.21-.768.837C3.744 7.744 2 21.209 2 21.209l14.651 2.512L23 22.116c-.07.07-2.651-17.442-2.651-17.58v-.001zm-5.511-1.326c-.35.07-.698.21-1.117.35 0-.56-.07-1.396-.349-2.094.907.14 1.326 1.116 1.465 1.744zm-1.884.558a48.07 48.07 0 00-2.442.768c.21-.907.697-1.814 1.256-2.372.209-.21.488-.489.837-.628.279.698.349 1.605.349 2.232zm-1.606-3c.28 0 .49.07.698.21-.278.14-.627.418-.907.697-.697.768-1.325 2.024-1.534 3.21-.698.21-1.396.418-2.024.628C8.07 3.558 9.605.837 11.35.767z" fill="#95BF47"></path>
+  <path d="M20.14 4.395h-1.814L16.79 2.86a.15.15 0 00-.14-.14v21.001L23 22.116S20.418 4.605 20.418 4.535a.525.525 0 00-.278-.14z" fill="#5E8E3E"></path>
+  <path d="M13.093 7.604l-.698 2.721s-.837-.349-1.813-.279c-1.466.07-1.466.977-1.466 1.187.07 1.255 3.349 1.534 3.489 4.395.14 2.302-1.187 3.837-3.14 3.977-2.302.139-3.628-1.256-3.628-1.256l.489-2.093s1.325.976 2.302.907c.697 0 .907-.628.907-.977-.07-1.605-2.721-1.535-2.93-4.187-.14-2.232 1.325-4.464 4.534-4.674 1.326 0 1.954.28 1.954.28z" fill="#fff"></path>
+</svg>
+</span>Shopify<span class="c-menu_item v--description"><small>Increase your online sales</small></span>
+                  </a></li>
+                  <li><a href="/integrations/slack/" class="c-menu__item">
+                    <span class="c-menu__icon u-mr-sm"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.4862 7.26391C12.4862 6.47675 12.4862 5.68642 12.4862 4.89927C12.4862 3.96928 13.1591 3.17577 14.0764 3.0266C15.1048 2.85837 16.0982 3.57887 16.2474 4.60726C16.2633 4.71517 16.2696 4.81992 16.2696 4.92783C16.2696 6.48627 16.2696 8.04154 16.2696 9.59998C16.2696 10.1681 16.0633 10.6506 15.6412 11.0315C15.2254 11.406 14.7334 11.5615 14.1748 11.5076C13.4067 11.4314 12.737 10.8632 12.5433 10.0856C12.5084 9.9396 12.4894 9.79042 12.4894 9.64125C12.4862 8.84774 12.4862 8.05424 12.4862 7.26391Z" fill="#2EB57D"></path>
+<path d="M7.26515 11.5139C6.47165 11.5139 5.68132 11.5139 4.88781 11.5139C3.96735 11.5139 3.17067 10.8315 3.02784 9.92371C2.86279 8.89216 3.57377 7.91139 4.60532 7.75586C4.71007 7.73999 4.81798 7.73047 4.9259 7.73047C6.48434 7.73047 8.04278 7.73047 9.60123 7.73047C10.4233 7.73047 11.1375 8.21609 11.4072 8.99055C11.6453 9.67297 11.5215 10.3014 11.0581 10.8569C10.7534 11.2187 10.3598 11.425 9.89324 11.498C9.80754 11.5107 9.72184 11.5139 9.63614 11.5139C8.84581 11.5139 8.05548 11.5139 7.26515 11.5139Z" fill="#36C4EF"></path>
+<path d="M11.5215 16.7351C11.5215 17.5254 11.5215 18.3158 11.5215 19.1061C11.5215 20.0297 10.8422 20.8264 9.93128 20.9724C8.89973 21.1375 7.9253 20.4265 7.76343 19.3949C7.74756 19.287 7.73804 19.1823 7.73804 19.0743C7.73804 17.5159 7.73804 15.9575 7.73804 14.399C7.73804 13.4881 8.3411 12.7295 9.22983 12.5263C10.2423 12.2946 11.2929 12.9802 11.4866 14.0023C11.5119 14.1324 11.5215 14.2594 11.5215 14.3927C11.5183 15.1703 11.5215 15.9543 11.5215 16.7351Z" fill="#DF1E5A"></path>
+<path d="M16.7394 12.4818C17.5297 12.4818 18.32 12.4818 19.1104 12.4818C20.034 12.4818 20.8307 13.1611 20.9767 14.072C21.1417 15.1035 20.4308 16.0811 19.4024 16.2398C19.2976 16.2557 19.1897 16.2652 19.0818 16.2652C17.5234 16.2652 15.9649 16.2652 14.4065 16.2652C13.4955 16.2652 12.7369 15.6622 12.5306 14.7735C12.3434 13.9609 12.756 13.0754 13.505 12.6945C13.7844 12.5516 14.0827 12.4786 14.3969 12.4786C15.1746 12.4818 15.9586 12.4818 16.7394 12.4818Z" fill="#EBB12E"></path>
+<path d="M11.5179 5.74337C11.5179 6.0703 11.5179 6.39722 11.5179 6.72414C11.5179 6.77175 11.5053 6.78445 11.4576 6.78445C10.8292 6.78128 10.2007 6.79397 9.57227 6.78128C8.99143 6.76858 8.51532 6.52101 8.15031 6.0703C7.8583 5.71163 7.72182 5.29266 7.73769 4.82926C7.76308 3.93418 8.4455 3.15972 9.3247 3.02324C10.3499 2.86454 11.2958 3.53426 11.4894 4.55629C11.5084 4.66103 11.5179 4.76895 11.5179 4.87687C11.5179 5.16888 11.5179 5.45771 11.5179 5.74337Z" fill="#36C4EF"></path>
+<path d="M18.2534 11.517C17.9264 11.517 17.5995 11.517 17.2726 11.517C17.2281 11.517 17.2155 11.5075 17.2155 11.4599C17.2186 10.8283 17.2155 10.1998 17.2186 9.56817C17.2218 8.80641 17.7614 8.07956 18.5041 7.83199C19.615 7.4638 20.7799 8.16526 20.9767 9.31743C21.1512 10.3426 20.4339 11.3329 19.4023 11.4916C19.304 11.5075 19.2087 11.5138 19.1103 11.5138C18.8247 11.5138 18.539 11.517 18.2534 11.517Z" fill="#2EB57D"></path>
+<path d="M5.75083 12.4819C6.07775 12.4819 6.40468 12.4819 6.7316 12.4819C6.77286 12.4819 6.79191 12.4883 6.79191 12.5359C6.78873 13.1675 6.79191 13.796 6.78873 14.4276C6.78556 15.183 6.25232 15.9099 5.51595 16.1606C4.42726 16.532 3.27192 15.8686 3.04022 14.7418C2.82756 13.6976 3.54806 12.666 4.60183 12.5073C4.70023 12.4915 4.79545 12.4851 4.89384 12.4851C5.18268 12.4819 5.46517 12.4819 5.75083 12.4819Z" fill="#DF1E5A"></path>
+<path d="M12.4863 18.2491C12.4863 17.9222 12.4863 17.5953 12.4863 17.2683C12.4863 17.2239 12.4958 17.2112 12.5435 17.2112C13.1751 17.2144 13.8035 17.2017 14.4352 17.2144C15.0128 17.2271 15.4889 17.4715 15.8508 17.9222C16.1428 18.2809 16.2793 18.6998 16.2666 19.1632C16.2412 20.0647 15.5715 20.8232 14.6827 20.9724C13.6671 21.1406 12.6863 20.4455 12.5117 19.433C12.4927 19.3283 12.4831 19.2204 12.4863 19.1124C12.4863 18.8236 12.4863 18.538 12.4863 18.2491Z" fill="#EBB12E"></path>
+</svg>
+</span>Slack<span class="c-menu_item v--description"><small>Streamline office workflows</small></span>
+                  </a></li>
+                  <li><a href="/integrations/wordpress/" class="c-menu__item">
+                    <span class="c-menu__icon u-mr-sm"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.9842 8.08087C19.6112 9.22503 19.9681 10.5381 19.9681 11.9348C19.9681 14.8985 18.3619 17.4859 15.9737 18.8784L18.4273 11.7842C18.8856 10.6382 19.0382 9.7218 19.0382 8.90696C19.0382 8.61121 19.0187 8.33673 18.9842 8.08087ZM13.042 8.16833C13.5257 8.1429 13.9615 8.09203 13.9615 8.09203C14.3943 8.04078 14.3433 7.40465 13.9102 7.42999C13.9102 7.42999 12.609 7.5321 11.769 7.5321C10.9797 7.5321 9.65335 7.42999 9.65335 7.42999C9.22012 7.40465 9.16934 8.06641 9.60239 8.09203C9.60239 8.09203 10.0122 8.1429 10.445 8.16833L11.6965 11.5976L9.93823 16.87L7.01302 8.16833C7.49702 8.1429 7.93234 8.09203 7.93234 8.09203C8.36491 8.04078 8.31385 7.40465 7.88099 7.42999C7.88099 7.42999 6.58007 7.5321 5.73999 7.5321C5.58927 7.5321 5.41161 7.52841 5.22298 7.52236C6.6594 5.34164 9.12831 3.90154 11.935 3.90154C14.0262 3.90154 15.9305 4.70116 17.3596 6.01068C17.325 6.0086 17.2913 6.00425 17.2556 6.00425C16.4665 6.00425 15.9066 6.69164 15.9066 7.42999C15.9066 8.09203 16.2885 8.65215 16.6957 9.3141C17.0012 9.84916 17.358 10.5364 17.358 11.5296C17.358 12.2171 17.0936 13.015 16.7467 14.1265L15.9452 16.8037L13.042 8.16833ZM11.935 19.9686C11.1464 19.9686 10.3854 19.853 9.66545 19.6413L12.076 12.6375L14.5451 19.4025C14.5614 19.4422 14.5813 19.4788 14.6026 19.5132C13.7676 19.8071 12.8704 19.9686 11.935 19.9686ZM3.90173 11.9348C3.90173 10.7701 4.15153 9.6645 4.59734 8.66548L8.42939 19.1646C5.74935 17.8626 3.90173 15.1145 3.90173 11.9348ZM11.935 3C7.0082 3 3 7.0081 3 11.9348C3 16.8616 7.0082 20.8702 11.935 20.8702C16.8616 20.8702 20.87 16.8616 20.87 11.9348C20.87 7.0081 16.8616 3 11.935 3Z" fill="#3E3D3A"></path>
+</svg>
+</span>WordPress<span class="c-menu_item v--description"><small>Boost website engagement</small></span>
+                  </a></li>
+                  <li><a href="/integrations/" class="c-menu__item v--no-border">See all integrations</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li data-target="menu.root">
+          <button class="c-menu__item v--top" data-target="menu.top">Resources<span class="c-menu__arrow"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><defs></defs><path d="M12.67 6L8 10.67 3.33 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+          <div class="c-menu__sub">
+            <div class="c-menu__split">
+              <div>
+                <ul>
+                  <li><a href="/help/" class="c-menu__item"><span class="c-menu__icon u-mr-sm v--single-color"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 16a4 4 0 100-8 4 4 0 000 8z" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 21a9 9 0 100-18 9 9 0 000 18zM15 15l3.4 3.4M9 15l-3.4 3.4M5.6 5.6L9 9M18.4 5.6L15 9" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>Help Center</a></li>
+                  <li><a href="/chatbot-templates/" class="c-menu__item v--single-color"><span class="c-menu__icon u-mr-sm"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 4H5a1 1 0 0 0-1 1v2c0 .6.4 1 1 1h14c.6 0 1-.4 1-1V5c0-.6-.4-1-1-1ZM9 12H5a1 1 0 0 0-1 1v6c0 .6.4 1 1 1h4c.6 0 1-.4 1-1v-6c0-.6-.4-1-1-1ZM14 12h6M14 16h6M14 20h6" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>Templates</a></li>
+                  <li><a href="/docs/" class="c-menu__item" target="_blank"><span class="c-menu__icon u-mr-sm v--single-color"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>API &amp; Developers</a></li>
+                  <li><a href="https://partners.livechat.com/?utm_source=chatbot.com&amp;utm_medium=referral&amp;utm_content=top_navigation" class="c-menu__item v--single-color" target="_blank"><span class="c-menu__icon u-mr-sm"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.049 2.92702C11.349 2.00602 12.652 2.00602 12.951 2.92702L14.47 7.60102C14.5353 7.80151 14.6624 7.9762 14.833 8.10012C15.0037 8.22405 15.2091 8.29086 15.42 8.29102H20.335C21.304 8.29102 21.706 9.53102 20.923 10.101L16.947 12.989C16.7762 13.1132 16.6491 13.2882 16.5839 13.4891C16.5187 13.6899 16.5187 13.9062 16.584 14.107L18.102 18.781C18.402 19.703 17.347 20.469 16.564 19.899L12.588 17.011C12.4171 16.8868 12.2112 16.8199 12 16.8199C11.7887 16.8199 11.5829 16.8868 11.412 17.011L7.43597 19.899C6.65297 20.469 5.59797 19.702 5.89797 18.781L7.41597 14.107C7.48125 13.9062 7.48129 13.6899 7.41608 13.4891C7.35087 13.2882 7.22377 13.1132 7.05297 12.989L3.07697 10.101C2.29297 9.53102 2.69697 8.29102 3.66497 8.29102H8.57897C8.79002 8.29107 8.99568 8.22436 9.1665 8.10042C9.33732 7.97648 9.46455 7.80167 9.52997 7.60102L11.049 2.92702V2.92702Z" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</span>Partner Program</a></li>
+                  <li class="v--only-desktop"><a href="https://status.chatbot.com" class="c-menu__item v--single-color" target="_blank"><span class="c-menu__icon u-mr-sm"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>System Status</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="c-menu__header">Learn</p>
+                <ul>
+                  <li><a href="/academy/" class="c-menu__item v--m-button">ChatBot Academy<br><small>Become a chatbot designer</small></a></li>
+                  <li><a href="/chatbot-best-practices/" class="c-menu__item v--m-button">Chatbot Best Practices<br><small>Design successful chatbots</small></a></li>
+                  <li><a href="/blog/" class="c-menu__item v--m-button">Blog<br><small>Tips on using chatbots</small></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="v--only-mobile u-p-lg u-mt-auto u-mb-0">
+        <form action="https://accounts.chatbot.com/signup" method="GET" data-controller="signup" data-action="signup#submit" class="o-input-group u-mb-lg">
+          <input type="email" name="email" class="" style="border-color: #767680;" data-target="signup.email" placeholder="Enter your email" aria-label="Business Email" required="">
+          <input type="hidden" name="source_id" value="header_cta">
+          <input type="hidden" name="source_url" value="https://www.chatbot.com/">
+          <input type="hidden" name="source_type" value="website">
+          <div class="o-input-group__append">
+            <button type="submit" class="c-btn v--signup">Sign up free</button>
+          </div>
+        </form>
+        <p class="u-text-center"><a href="https://app.chatbot.com">Already a customer? <span class="u-text-primary">Log in</span></a></p>
+      </div>
+    </nav>
+
+    <div class="c-navbar__actions">
+      <a href="https://app.chatbot.com" class="c-btn v--secondary v--sm" data-controller="track" data-track-category="Log In Button" data-track-action="Top Nav" data-track-label="Redirect to Accounts" data-action="track#send">Log in</a>
+      <a href="https://accounts.chatbot.com/signup?source_id=header_cta&amp;source_url=https://www.chatbot.com/&amp;source_type=website" class="c-btn v--signup v--sm" data-controller="track" data-track-category="Signup" data-track-action="Signup Redirect" data-track-label="Sign up free - Top Nav" data-action="track#send">Sign up free</a>
+    </div>
+
+    
+</div>
+</div>
+
+
+    <div class="o-wrapper">
+        
+
+<div class="o-wrapper">
+    <section class="o-container-xl u-relative u-Mb-xs u-pt-xs">
+        <div class="u-flex u-flex-wrap u-justify-center u-items-center md:u-items-start">
+            <div class="u-w-full lg:u-basis-6 u-mx-auto lg:u-ml-0 u-Mb-sm lg:u-mb-0 u-Pt-sm md:u-Pt-lg lg:u-Pt-xl">
+                <div class="u-text-center lg:u-text-left">
+                    <h1 class="b--u-text-3xl u-my-0 u-maxw-8 u-mx-auto">
+                        With ChatBot, automating&nbsp;customer service is a <span class="u-text-mark">breeze</span>
+                    </h1>
+
+                    <p class="u-maxw-6 u-mx-auto lg:u-ml-0 u-text-p5 u-py-md">
+                        An all-in-one platform to build and launch conversational chatbots without coding.
+                    </p>
+                </div>
+                <form action="https://accounts.chatbot.com/signup" method="GET" data-controller="signup track" data-action="track#send" data-track-category="Signup" data-track-action="Signup Redirect" data-track-label="Sign up free 1" class="u-maxw-6 u-mx-auto lg:u-ml-0 u-Mb-xs">
+                  <div class="u-maxw-6 u-mx-auto u-flex u-flex-col sm:u-flex-row">
+                    <input type="email" name="email" class="u-mr-xs u-mb-xs sm:u-mb-0" style="min-width: 14rem;" data-target="signup.email" placeholder="Enter your business email" required="">
+                    <input type="hidden" name="source_id" value="hero-a">
+                    <input type="hidden" name="source_url" value="https://www.chatbot.com/">
+                    <input type="hidden" name="source_type" value="website">
+                    
+                    <button type="submit" class="c-btn v--signup">Sign up free</button>
+                  </div>
+                </form>
+
+                <p class="u-maxw-7 u-mx-auto u-text-p6 u-Mt-2xs u-text-center lg:u-text-left">
+                    <span class="u-inline-block u-mr-md">
+                        <span class="u-mr-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10">
+                                <path d="M9.1.3L4 5.4l-2-2c-.3-.3-.7-.4-1-.3S0 3.5 0 4c0 .4 0 .8.3 1l2.8 2.8c.2.2.5.3.8.3s.6-.1.8-.3l6-5.9c.3-.2.4-.6.3-1a1 1 0 0 0-.8-.8c-.4 0-.8 0-1 .3z" fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <span>Free 14-day trial</span>
+                    </span>
+                
+                    <span class="u-inline-block u-mr-md">
+                        <span class="u-mr-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10">
+                                <path d="M9.1.3L4 5.4l-2-2c-.3-.3-.7-.4-1-.3S0 3.5 0 4c0 .4 0 .8.3 1l2.8 2.8c.2.2.5.3.8.3s.6-.1.8-.3l6-5.9c.3-.2.4-.6.3-1a1 1 0 0 0-.8-.8c-.4 0-.8 0-1 .3z" fill="currentColor"></path>
+                            </svg>
+                        </span>
+                        <span>No credit card required</span>
+                    </span>
+                
+                    
+                </p>
+
+            </div>
+            <div data-controller="lazyplay" class="u-relative u-hidden md:u-block lg:u-basis-6 u-maxw-7 u-mt-0 b--lg:u-mt-6" style="max-width:652px;max-height:549px;">
+              <video preload="none" loop="" playsinline="" muted="" src="/chatbot-app.2dfb4d88708ba33b62c5dfa3db31dc616df03452c1e3aaddcea82a21e82334d9.mp4" width="652" height="549" style="--aspect-ratio: 652/549;" title="" data-target="lazyplay.video" poster="chatbot-app.png" data-video="0"></video>
+            
+              
+                <img src="chatbot-app.png" loading="lazy" width="652" height="549" data-target="lazyplay.poster" style="position:absolute;top:0;left:0;width:100%;" hidden="">
+              
+            </div>
+
+            <img src="/chatbot-app.02d34c994c8b5cc47c077915fa02ba96495acab58e03a5cb4dae65b0f45a75de.png" srcset="/chatbot-app_hucace321d9fa35f2186d805407425e6bf_212771_360x0_resize_lanczos_3.png 360w, /chatbot-app_hucace321d9fa35f2186d805407425e6bf_212771_596x0_resize_lanczos_3.png 596w, 
+	/chatbot-app_hucace321d9fa35f2186d805407425e6bf_212771_832x0_resize_lanczos_3.png 832w, /chatbot-app_hucace321d9fa35f2186d805407425e6bf_212771_1068x0_resize_lanczos_3.png 1068w, /chatbot-app_hucace321d9fa35f2186d805407425e6bf_212771_1304x0_resize_lanczos_3.png 1304w" alt="A picture showing a woman chatting with a chat bot" class="u-block md:u-hidden u-maxw-7 u-mx-auto" width="652" height="549" loading="lazy">
+
+        </div>
+    </section>
+
+    <section class="u-relative u-Pt-md md:u-pt-0 xl:u-Pt-xl">
+        <img src="/background-wave-gray.6030abf02f1254ccc6409036eedcbc29646c39c746d3d3a7cb660932274472ed.svg" alt="" class="t-home-wave-gray u-w-full" loading="lazy">
+
+
+        <div class="u-maxw-16 u-mx-auto u-px-xs">
+            <div data-controller="lazyplay" class="u-relative u-hidden md:u-block" style="max-width:1488px;max-height:362px;">
+              <video preload="none" loop="" playsinline="" muted="" src="/video.a53e823528c7a883bb763e959a30af059edff1b41c8e0d7fc60056a743dd4144.mp4" width="1488" height="362" style="--aspect-ratio: 1488/362;" title="AI chat bot platform for business" data-target="lazyplay.video" data-video="1"></video>
+            
+              
+            </div>
+
+
+            <div class="t-home-blocks u-Pt-md md:u-pt-0 o-container u-relative u-My--md">
+                <div class="o-columns v--three">
+                    <a href="/solutions/chatbot-for-marketing/" class="t-home-block v--no-underline u-flex u-flex-wrap u-content-between u-Pt-md u-Pb-xs u-Px-xs md:u-px-xl u-border u-rounded" data-controller="track" data-track-category="Interactions" data-track-action="Link click" data-track-label="Benefits for Marketing - tile" data-action="track#send">
+                        <div class="u-text-black u-Mb-xs">
+                            <img src="/icon-power-up-marketing.90fa01c47e8ba65dd3328c481c0f5d0d90fb63e07fb67f8b00cd79a23e52a67e.png" srcset="/icon-power-up-marketing_hu5bb8fa66e70eaed70dc4fe536a912cf0_4742_360x0_resize_lanczos_3.png 360w, /icon-power-up-marketing_hu5bb8fa66e70eaed70dc4fe536a912cf0_4742_330x0_resize_lanczos_3.png 330w, /icon-power-up-marketing_hu5bb8fa66e70eaed70dc4fe536a912cf0_4742_300x0_resize_lanczos_3.png 300w, /icon-power-up-marketing_hu5bb8fa66e70eaed70dc4fe536a912cf0_4742_270x0_resize_lanczos_3.png 270w, /icon-power-up-marketing_hu5bb8fa66e70eaed70dc4fe536a912cf0_4742_240x0_resize_lanczos_3.png 240w" alt="Chat bot for marketing icon" class="t-home-icon" width="100" height="100" loading="lazy">
+
+
+                            <h3 class="u-maxw-6 md:u-maxw-3 u-py-md u-mx-auto u-text-center u-text-p4">Power up your marketing</h3>
+
+                            <ul class="c-list v--bold v--tick">
+                                <li class="c-list__item u-text-p6 u-Mb-xs">Personalize your customer experience.</li>
+                                <li class="c-list__item u-text-p6 u-Mb-xs">Engage prospects and customers across multiple communication channels.</li>
+                            </ul>
+                        </div>
+
+                        <span class="u-w-full c-link u-text-center u-text-p6-bold">Benefits for Marketing</span>
+                    </a>
+
+                    <a href="/solutions/chatbot-for-sales/" class="t-home-block v--no-underline u-flex u-flex-wrap u-content-between u-Pt-md u-Pb-xs u-Px-xs md:u-px-xl u-border u-rounded" data-controller="track" data-track-category="Interactions" data-track-action="Link click" data-track-label="Benefits for Sales - tile" data-action="track#send">
+                        <div class="u-text-black u-Mb-xs">
+                            <img src="/icon-supercharge-sales.20b742bec7d08c491021a046452b499700f7e950939e8003027c48f41827bd7f.png" srcset="/icon-supercharge-sales_hu734b9dd656494ce9b3ec90d3b72e9d73_5104_360x0_resize_lanczos_3.png 360w, /icon-supercharge-sales_hu734b9dd656494ce9b3ec90d3b72e9d73_5104_330x0_resize_lanczos_3.png 330w, /icon-supercharge-sales_hu734b9dd656494ce9b3ec90d3b72e9d73_5104_300x0_resize_lanczos_3.png 300w, /icon-supercharge-sales_hu734b9dd656494ce9b3ec90d3b72e9d73_5104_270x0_resize_lanczos_3.png 270w, /icon-supercharge-sales_hu734b9dd656494ce9b3ec90d3b72e9d73_5104_240x0_resize_lanczos_3.png 240w" alt="Chat bot for sales icon" class="t-home-icon" width="100" height="100" loading="lazy">
+
+
+                            <h3 class="u-maxw-6 md:u-maxw-3 u-py-md u-mx-auto u-text-center u-text-p4">Supercharge your sales</h3>
+
+                            <ul class="c-list v--bold v--tick">
+                                <li class="c-list__item u-text-p6 u-Mb-xs">Scale your efforts without increasing employee headcount.</li>
+                                <li class="c-list__item u-text-p6 u-Mb-xs">Generate and qualify leads automatically.</li>
+                            </ul>
+                        </div>
+
+                        <span class="u-w-full c-link u-text-center u-text-p6-bold">Benefits for Sales</span>
+                    </a>
+
+                    <a href="/solutions/chatbot-for-support/" class="t-home-block v--no-underline u-flex u-flex-wrap u-content-between u-Pt-md u-Pb-xs u-Px-xs md:u-px-xl u-border u-rounded" data-controller="track" data-track-category="Interactions" data-track-action="Link click" data-track-label="Benefits for Support - tile" data-action="track#send">
+                        <div class="u-text-black u-Mb-xs">
+                            <img src="/icon-optimize-support.37467eaf45f2004f6ccf35214c2e92d417dcf4b0b6df539b82bb2ed4b0b17cc2.png" srcset="/icon-optimize-support_hu197a8fec1953d86c6d722e0f05a4136e_4558_360x0_resize_lanczos_3.png 360w, /icon-optimize-support_hu197a8fec1953d86c6d722e0f05a4136e_4558_330x0_resize_lanczos_3.png 330w, /icon-optimize-support_hu197a8fec1953d86c6d722e0f05a4136e_4558_300x0_resize_lanczos_3.png 300w, /icon-optimize-support_hu197a8fec1953d86c6d722e0f05a4136e_4558_270x0_resize_lanczos_3.png 270w, /icon-optimize-support_hu197a8fec1953d86c6d722e0f05a4136e_4558_240x0_resize_lanczos_3.png 240w" alt="Chat bot for customer support icon" class="t-home-icon" width="100" height="100" loading="lazy">
+
+
+                            <h3 class="u-maxw-6 md:u-maxw-3 u-py-md u-mx-auto u-text-center u-text-p4">Optimize your&nbsp;support</h3>
+
+                            <ul class="c-list v--bold v--tick">
+                                <li class="c-list__item u-text-p6 u-Mb-xs">Keep your customer support going after hours.</li>
+                                <li class="c-list__item u-text-p6 u-Mb-xs">Improve resolution times.</li>
+                            </ul>
+                        </div>
+
+                        <span class="u-w-full c-link u-text-center u-text-p6-bold">Benefits for Support</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="u-bg-gray-900 t-svg-fix u-Py-xl">
+        <div class="u-maxw-10 u-mx-auto u-px-xs u-text-center">
+            <h2 class="u-text-p2 u-My-md">Empowering companies to stand out with customer experience</h2>
+
+            <img src="/companies-using-chatbot.7bfeb54cec5710e31c1dfc5a4af64935804bef3678e384e96f425001f49858b7.png" srcset="/companies-using-chatbot_huaa0e08e5291de45d1ce4f36eb3403eb2_15913_360x0_resize_lanczos_3.png 360w, /companies-using-chatbot_huaa0e08e5291de45d1ce4f36eb3403eb2_15913_840x0_resize_lanczos_3.png 840w, 
+		/companies-using-chatbot_huaa0e08e5291de45d1ce4f36eb3403eb2_15913_1320x0_resize_lanczos_3.png 1320w, /companies-using-chatbot_huaa0e08e5291de45d1ce4f36eb3403eb2_15913_1800x0_resize_lanczos_3.png 1800w, /companies-using-chatbot_huaa0e08e5291de45d1ce4f36eb3403eb2_15913_2280x0_resize_lanczos_3.png 2280w" alt="Companies using ChatBot.com" class="t-home-companies-using-chatbot u-hidden md:u-block" width="912" height="46" loading="lazy">
+
+            <img src="/companies-using-chatbot-mobile.da538dfcba3ea2eb387c818b762420373314265949021381724cc374df1eab5e.png" srcset="/companies-using-chatbot-mobile_hue5657f81021fdc35b450e4d51d4fd3dd_16561_360x0_resize_lanczos_3.png 360w, /companies-using-chatbot-mobile_hue5657f81021fdc35b450e4d51d4fd3dd_16561_560x0_resize_lanczos_3.png 560w, 
+	/companies-using-chatbot-mobile_hue5657f81021fdc35b450e4d51d4fd3dd_16561_760x0_resize_lanczos_3.png 760w, /companies-using-chatbot-mobile_hue5657f81021fdc35b450e4d51d4fd3dd_16561_960x0_resize_lanczos_3.png 960w, /companies-using-chatbot-mobile_hue5657f81021fdc35b450e4d51d4fd3dd_16561_1160x0_resize_lanczos_3.png 1160w" alt="Companies using ChatBot.com" class="t-home-companies-using-chatbot-mobile u-block md:u-hidden" width="581" height="136" loading="lazy">
+
+        </div>
+    </section>
+
+    <svg preserveAspectRatio="none" viewBox="0 0 1440 36" class="u-block" xmlns="http://www.w3.org/2000/svg" style="margin-top: -1px; margin-bottom: -1px; width: 100%; height: auto; "><rect width="100%" height="100%" fill="#f6f6f7"></rect><path d="M1440 36V8.2s-105.6-1.2-160.7-6a877 877 0 00-150.5 2.5c-42.1 3.9-140 15-223 15C754 19.6 700.3 6.8 548.8 7c-143.7 0-273.4 11.5-350 12.6-76.6 1.2-198.8 0-198.8 0V36h1440z" fill="#fff"></path></svg>
+
+
+    <section>
+        <div class="t-svg-fix u-relative u-Pt-2xl u-Pb-md">
+            <img src="/background-dust-left-1.b1cca7c8ac7e35004609e16d37a38432575a6106a55f02ae96dd1fc8d8452be4.png" srcset="/background-dust-left-1_hu44f9b321ad832dc8faff5a6203a29c95_2116_360x0_resize_lanczos_3.png 360w, /background-dust-left-1_hu44f9b321ad832dc8faff5a6203a29c95_2116_418x0_resize_lanczos_3.png 418w, 
+				/background-dust-left-1_hu44f9b321ad832dc8faff5a6203a29c95_2116_476x0_resize_lanczos_3.png 476w, /background-dust-left-1_hu44f9b321ad832dc8faff5a6203a29c95_2116_534x0_resize_lanczos_3.png 534w, /background-dust-left-1_hu44f9b321ad832dc8faff5a6203a29c95_2116_592x0_resize_lanczos_3.png 592w" alt="Dust - background" class="t-home-dust-left-1 u-hidden md:u-block" width="297" height="511" loading="lazy">
+
+            <img src="/background-dust-right-1.4caeea9ccaf678f16b38531de1f280cf5a648697178af289bb00c67bdb57f22e.png" srcset="/background-dust-right-1_hu58c4d71927ee23110c719328d21ae5a0_2146_360x0_resize_lanczos_3.png 360w, /background-dust-right-1_hu58c4d71927ee23110c719328d21ae5a0_2146_420x0_resize_lanczos_3.png 420w, 
+		/background-dust-right-1_hu58c4d71927ee23110c719328d21ae5a0_2146_480x0_resize_lanczos_3.png 480w, /background-dust-right-1_hu58c4d71927ee23110c719328d21ae5a0_2146_540x0_resize_lanczos_3.png 540w, /background-dust-right-1_hu58c4d71927ee23110c719328d21ae5a0_2146_600x0_resize_lanczos_3.png 600w" alt="Dust - background" class="t-home-dust-right-2 u-hidden md:u-block" width="301" height="542" loading="lazy">
+
+
+            <div class="o-container">
+                <div class="o-columns v--two">
+                    <div class="t-home-testimonial-block u-relative u-Pt-xl u-Pb-xs u-Px-md u-rounded">
+                        <img src="/testimonial-chris-wilson-2.1834bd25b9a5960ce6d6b15657aae50f6715ddf68bf8268afc5ba0ac33d99f05.png" srcset="/testimonial-chris-wilson-2_huefadf69e6c483e7e4c95b4b86383b325_20562_360x0_resize_lanczos_3.png 360w, /testimonial-chris-wilson-2_huefadf69e6c483e7e4c95b4b86383b325_20562_326x0_resize_lanczos_3.png 326w, /testimonial-chris-wilson-2_huefadf69e6c483e7e4c95b4b86383b325_20562_292x0_resize_lanczos_3.png 292w, /testimonial-chris-wilson-2_huefadf69e6c483e7e4c95b4b86383b325_20562_258x0_resize_lanczos_3.png 258w, /testimonial-chris-wilson-2_huefadf69e6c483e7e4c95b4b86383b325_20562_224x0_resize_lanczos_3.png 224w" alt="ChatBot testimonial - Chris Wilson" class="t-home-testimonial-img" width="110" height="125" loading="lazy">
+
+
+                        <p class="u-text-p5">
+                            “We've seen our online ordering increase by <span class="u-text-p5-bold">300% after customizing ChatBot software for our restaurant</span> and it was seamless to get started. We are now implementing it for our other restaurants and hotels.”
+                        </p>
+
+                        <p class="u-text-p8-bold u-my-0">Chris Wilson</p>
+                        <p class="u-text-p8 u-my-0">CEO of Next Door Burger Bar</p><p>
+                    </p></div>
+
+                    <div class="u-hidden md:u-block t-home-testimonial-block u-relative u-Pt-xl u-Pb-xs u-Px-md u-rounded">
+                        <img src="/testimonial-joe-bush-2.5fe9dc6049602cf38555cbc47361e66b86174561d10aa9c46f2b1c4ead9e9428.png" srcset="/testimonial-joe-bush-2_hu0d5622631c733781cda314d2d5f150bd_19629_360x0_resize_lanczos_3.png 360w, /testimonial-joe-bush-2_hu0d5622631c733781cda314d2d5f150bd_19629_327x0_resize_lanczos_3.png 327w, /testimonial-joe-bush-2_hu0d5622631c733781cda314d2d5f150bd_19629_294x0_resize_lanczos_3.png 294w, /testimonial-joe-bush-2_hu0d5622631c733781cda314d2d5f150bd_19629_261x0_resize_lanczos_3.png 261w, /testimonial-joe-bush-2_hu0d5622631c733781cda314d2d5f150bd_19629_228x0_resize_lanczos_3.png 228w" alt="ChatBot testimonial - Joe Bush" class="t-home-testimonial-img" width="110" height="125" loading="lazy">
+
+
+                        <p class="u-text-p5">
+                            “The ChatBot platform has become a key part of our proposition. It's fully flexible and has allowed us <span class="u-text-p5-bold">to drive 30% more leads while dramatically reducing our cost to serve.</span>”
+                        </p>
+
+                        <p class="u-text-p8-bold u-my-0">Joe Bush</p>
+                        <p class="u-text-p8 u-my-0">Co-founder of The Chat Shop</p><p>
+                    </p></div>
+                </div>
+
+                <p class="u-Pt-md u-text-center u-text-p6-bold">
+                    <a href="/benefits/" class="c-link" data-controller="track" data-track-category="Interactions" data-track-action="Link click" data-track-label="Testimonials" data-action="track#send">See how ChatBot can benefit your business</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <svg preserveAspectRatio="none" viewBox="0 0 1440 36" class="u-block" xmlns="http://www.w3.org/2000/svg" style="margin-top: -1px; margin-bottom: -1px; width: 100%; height: auto; "><rect width="100%" height="100%" fill="#fff"></rect><path d="M1440 36V8.2s-105.6-1.2-160.7-6a877 877 0 00-150.5 2.5c-42.1 3.9-140 15-223 15C754 19.6 700.3 6.8 548.8 7c-143.7 0-273.4 11.5-350 12.6-76.6 1.2-198.8 0-198.8 0V36h1440z" fill="#f6f6f7"></path></svg>
+
+
+    <section class="u-bg-gray-900 t-svg-fix">
+        <div class="o-container u-Pt-xl">
+            <div class="u-maxw-10">
+                <h2 class="u-text-p1">Get started with templates</h2>
+                <p class="u-text-p5">Build your first AI chatbots with ready-to-use templates. Customize them to fit your business needs, and bring your chatbots to life within minutes.</p>
+            </div>
         </div>
 
-				<div class="section-group">
-					<h3>Initialize AOS</h3>
-					<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="css">
-&nbsp;&nbsp;<span class="hljs-tag">AOS</span><span class="hljs-class">.init</span>();
-</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
-				</div>
+        
 
-			</div>
-		</section>
 
-		<footer class="footer">
-			<div class="container">
 
-			</div>
-		</footer>
+
+
+
+
+
+
+
+
+<div class="u-mx-auto u-relative" data-controller="swiper" data-show="" data-show-lg="5" data-show-md="3" data-show-sm="1" data-loop="true" data-space-between="20">
+  <div class="swiper-container t-home-swiper u-maxw-16 u-mx-auto u-Py-md u-flex swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" data-target="swiper.container" style="cursor: grab;">
+    
+    <div class="swiper-prev u-flex u-items-center" data-target="swiper.prev">
+      <img src="/swiper-arrow-left.svg" loading="lazy" width="35" height="35" alt="" style="width: 35px; height: 35px">
+    </div>
+    <div class="swiper-next u-flex u-items-center" data-target="swiper.next">
+      <img src="/swiper-arrow-right.svg" loading="lazy" width="35" height="35" alt="" style="width: 35px; height: 35px">
+    </div>
+    
+    <div class="swiper-wrapper u-items-start" data-target="swiper.wrapper" style="transition-duration: 0ms; transform: translate3d(-921px, 0px, 0px);"><a href="https://www.chatbot.com/chatbot-templates/restaurant-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center swiper-slide-duplicate" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Restaurant Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="16">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/restaurant-template-full-icon.svg" class="t-home-icon-xs" alt="ChatBot Restaurant Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Restaurant Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a><a href="https://www.chatbot.com/chatbot-templates/sales-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center swiper-slide-duplicate" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Sales Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="17">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/sales-icon.png" class="t-home-icon-xs" alt="ChatBot Sales Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Sales Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a><a href="https://www.chatbot.com/chatbot-templates/university-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center swiper-slide-duplicate swiper-slide-prev" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="University Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="18">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/university-icon.png" class="t-home-icon-xs" alt="ChatBot University Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">University Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+      
+            
+             
+              
+             
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/call-scheduling-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center swiper-slide-active" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Call Scheduling Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="0">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/call-scheduling-icon.png" class="t-home-icon-xs" alt="ChatBot Call Scheduling Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Call Scheduling Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/covid-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center swiper-slide-next" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Covid-19 Risk Assessment Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="1">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/covid-icon.png" class="t-home-icon-xs" alt="ChatBot Covid-19 Risk Assessment Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Covid-19 Risk Assessment Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/create-helpdesk-tickets-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Create HelpDesk Tickets" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="2">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/HD-Ticket.png" class="t-home-icon-xs" alt="ChatBot Create HelpDesk Tickets icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Create HelpDesk Tickets</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/customer-satisfaction-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Customer Satisfaction Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="3">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/customer-satisfaction-icon.png" class="t-home-icon-xs" alt="ChatBot Customer Satisfaction Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Customer Satisfaction Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/customer-service-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Customer Service Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="4">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/customer-service-icon.png" class="t-home-icon-xs" alt="ChatBot Customer Service Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Customer Service Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/discount-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Discount Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="5">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/discount-icon.png" class="t-home-icon-xs" alt="ChatBot Discount Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Discount Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/ecommerce-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Ecommerce Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="6">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/ecommerce-icon.png" class="t-home-icon-xs" alt="ChatBot Ecommerce Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Ecommerce Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/faq-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="FAQ Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="7">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/FAQ_bot_v1-%281%29.png" class="t-home-icon-xs" alt="ChatBot FAQ Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">FAQ Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/halloween-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Halloween Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="8">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/halloween-icon.png" class="t-home-icon-xs" alt="ChatBot Halloween Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Halloween Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/recruitment-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Job Application Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="9">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/refugee-support-template-%282%29.png" class="t-home-icon-xs" alt="ChatBot Job Application Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Job Application Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/lead-generation-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Lead Generation Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="10">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/lead-generation-icon.png" class="t-home-icon-xs" alt="ChatBot Lead Generation Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Lead Generation Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/offline-form-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Offline Form Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="11">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/offline-form-icon.png" class="t-home-icon-xs" alt="ChatBot Offline Form Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Offline Form Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/online-quiz-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Online Quiz Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="12">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/Frame-5824.png" class="t-home-icon-xs" alt="ChatBot Online Quiz Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Online Quiz Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/package-tracking-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Package Tracking Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="13">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/package-tracking-icon.png" class="t-home-icon-xs" alt="ChatBot Package Tracking Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Package Tracking Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/real-estate-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Real Estate Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="14">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/real-estate-icon.png" class="t-home-icon-xs" alt="ChatBot Real Estate Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Real Estate Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/refugee-support-bot/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Refugee Support Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="15">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/refugee-support-template-1646637623.png" class="t-home-icon-xs" alt="ChatBot Refugee Support Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Refugee Support Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/restaurant-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Restaurant Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="16">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/restaurant-template-full-icon.svg" class="t-home-icon-xs" alt="ChatBot Restaurant Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Restaurant Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/sales-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Sales Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="17">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/sales-icon.png" class="t-home-icon-xs" alt="ChatBot Sales Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Sales Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+              
+                <a href="https://www.chatbot.com/chatbot-templates/university-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center swiper-slide-duplicate-prev" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="University Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="18">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/university-icon.png" class="t-home-icon-xs" alt="ChatBot University Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">University Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a>
+              
+             
+            
+
+        
+    <a href="https://www.chatbot.com/chatbot-templates/call-scheduling-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center swiper-slide-duplicate swiper-slide-duplicate-active" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Call Scheduling Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="0">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/call-scheduling-icon.png" class="t-home-icon-xs" alt="ChatBot Call Scheduling Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Call Scheduling Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a><a href="https://www.chatbot.com/chatbot-templates/covid-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center swiper-slide-duplicate swiper-slide-duplicate-next" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Covid-19 Risk Assessment Template" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="1">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/covid-icon.png" class="t-home-icon-xs" alt="ChatBot Covid-19 Risk Assessment Template icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Covid-19 Risk Assessment Template</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a><a href="https://www.chatbot.com/chatbot-templates/create-helpdesk-tickets-template/" class="swiper-slide v--no-underline u-bg-white u-shadow-xl u-rounded u-flex u-items-center u-justify-center u-text-center swiper-slide-duplicate" rel="noopener noreferrer" target="_blank" data-controller="track" data-track-category="Interactions" data-track-action="Chatbot Templates" data-track-label="Create HelpDesk Tickets" data-action="track#send" style="width: 277px; margin-right: 30px;" data-swiper-slide-index="2">
+                  <div class="swiper-slide-wrapper u-flex u-content-between u-flex-wrap">
+                      <img src="https://cdn.livechatinc.com/cms/icons/HD-Ticket.png" class="t-home-icon-xs" alt="ChatBot Create HelpDesk Tickets icon" loading="lazy" width="80" height="80">
+                      <h4 class="u-w-full u-text-p4 u-py-2xs u-text-black">Create HelpDesk Tickets</h4>
+                      <span class="u-w-full c-link u-text-p6-bold u-text-center">More details</span>
+                  </div>
+                </a></div>
+    
+  </div>
+</div>
+    </section>
+
+   <svg preserveAspectRatio="none" viewBox="0 0 1440 36" class="u-block" xmlns="http://www.w3.org/2000/svg" style="margin-top: -1px; margin-bottom: -1px; width: 100%; height: auto; "><rect width="100%" height="100%" fill="#f6f6f7"></rect><path d="M1440 36V8.2s-105.6-1.2-160.7-6a877 877 0 00-150.5 2.5c-42.1 3.9-140 15-223 15C754 19.6 700.3 6.8 548.8 7c-143.7 0-273.4 11.5-350 12.6-76.6 1.2-198.8 0-198.8 0V36h1440z" fill="#fff"></path></svg>
+
+
+
+    <section class="o-container u-Py-xl">
+        <div class="u-maxw-9 u-Mb-md">
+            <h2 class="u-text-p1">Create customer experiences that sell</h2>
+            <p class="u-maxw-8 u-text-p5">
+                From the first visit to the final purchase, ChatBot lets you delight customers at each step of their buying journey.
+            </p>
+        </div>
+
+        <div class="u-maxw-13 u-mx-auto" data-controller="widget">
+            <div class="c-tour c-tour-text-xl">
+                <div class="c-tour__features u-Pt-md" data-target="widget.features">
+                    <div class="c-tour__feature u-flex u-flex-col u-justify-between v--active" data-target="widget.a" data-action="click->widget#move click->track#send" data-controller="track" data-track-category="Interactions" data-track-action="Carousel click" data-track-label="Engage - carousel">
+                        <h3 class="c-tour__feature_title u-text-p6-bold">Engage</h3>
+                        <p class="md:c-tour__feature_description u-text-p6">Reach out to visitors proactively using personalized chatbot greetings. Turn website visits into sales opportunities.</p>
+                        <img src="/widget-engage.91bd338f67b92ee522cf6dab8f7a1cb53b75d06c790c6cbd6cb7b192684ad13a.jpg" srcset="/widget-engage_hu31d43f7db46dfd0e7ae269190a883913_34421_360x0_resize_q75_lanczos.jpg 360w, /widget-engage_hu31d43f7db46dfd0e7ae269190a883913_34421_457x0_resize_q75_lanczos.jpg 457w, /widget-engage_hu31d43f7db46dfd0e7ae269190a883913_34421_554x0_resize_q75_lanczos.jpg 554w, /widget-engage_hu31d43f7db46dfd0e7ae269190a883913_34421_651x0_resize_q75_lanczos.jpg 651w, /widget-engage_hu31d43f7db46dfd0e7ae269190a883913_34421_748x0_resize_q75_lanczos.jpg 748w" alt="AI chat bots to generate leads on your website" class="c-tour__image" width="748" height="937" loading="lazy">
+
+                    </div>
+                    <div class="c-tour__feature u-flex u-flex-col u-justify-between" data-target="widget.b" data-action="click->widget#move click->track#send" data-controller="track" data-track-category="Interactions" data-track-action="Carousel click" data-track-label="Nurture - carousel">
+                        <h3 class="c-tour__feature_title u-text-p6-bold">Nurture</h3>
+                        <p class="md:c-tour__feature_description u-text-p6">Lead customers to a sale through recommended purchases and tailored offerings.</p>
+                        <img src="/widget-nurture.1cd44d0fb67f4395a86db9e5f6010e4112ffb4515b171036000ee5d3285b596b.jpg" srcset="/widget-nurture_hu279d7cdfcf55f2c93ef2d7903b08cc79_66592_360x0_resize_q75_lanczos.jpg 360w, /widget-nurture_hu279d7cdfcf55f2c93ef2d7903b08cc79_66592_457x0_resize_q75_lanczos.jpg 457w, /widget-nurture_hu279d7cdfcf55f2c93ef2d7903b08cc79_66592_554x0_resize_q75_lanczos.jpg 554w, /widget-nurture_hu279d7cdfcf55f2c93ef2d7903b08cc79_66592_651x0_resize_q75_lanczos.jpg 651w, /widget-nurture_hu279d7cdfcf55f2c93ef2d7903b08cc79_66592_748x0_resize_q75_lanczos.jpg 748w" alt="Nurture leads with an AI chat bot" class="c-tour__image" width="748" height="937" loading="lazy">
+
+                    </div>
+                    <div class="c-tour__feature u-flex u-flex-col u-justify-between" data-target="widget.c" data-action="click->widget#move click->track#send" data-controller="track" data-track-category="Interactions" data-track-action="Carousel click" data-track-label="Qualify - carousel">
+                        <h3 class="c-tour__feature_title u-text-p6-bold">Qualify</h3>
+                        <p class="md:c-tour__feature_description u-text-p6">Generate and qualify prospects automatically. Transfer high-intent leads to your sales reps in real time to shorten the sales cycle.</p>
+                        <img src="/widget-qualify.0bf6266f1597a7b55e081064b9bd291f81463a538f1870fa1d6c1acd1dbef67c.jpg" srcset="/widget-qualify_hua30fde0217dcf4d3e6f7ae8edb429a18_42179_360x0_resize_q75_lanczos.jpg 360w, /widget-qualify_hua30fde0217dcf4d3e6f7ae8edb429a18_42179_457x0_resize_q75_lanczos.jpg 457w, /widget-qualify_hua30fde0217dcf4d3e6f7ae8edb429a18_42179_554x0_resize_q75_lanczos.jpg 554w, /widget-qualify_hua30fde0217dcf4d3e6f7ae8edb429a18_42179_651x0_resize_q75_lanczos.jpg 651w, /widget-qualify_hua30fde0217dcf4d3e6f7ae8edb429a18_42179_748x0_resize_q75_lanczos.jpg 748w" alt="Conversational AI to qualify sales leads" class="c-tour__image" width="748" height="937" loading="lazy">
+
+                    </div>
+                    <div class="c-tour__feature u-flex u-flex-col u-justify-between" data-target="widget.d" data-action="click->widget#move click->track#send" data-controller="track" data-track-category="Interactions" data-track-action="Carousel click" data-track-label="Convert - carousel">
+                        <h3 class="c-tour__feature_title u-text-p6-bold">Convert</h3>
+                        <p class="md:c-tour__feature_description u-text-p6">Let customers purchase, order, or schedule meetings easily using a smart chatbot. </p>
+                        <img src="/widget-convert.8c2262e9e94e230f554f5da4cc030973d59b20769aa515c968ee0f7c4705c1d5.jpg" srcset="/widget-convert_hufc5e57355860d96d5d740e5551b409b1_30136_360x0_resize_q75_lanczos.jpg 360w, /widget-convert_hufc5e57355860d96d5d740e5551b409b1_30136_457x0_resize_q75_lanczos.jpg 457w, /widget-convert_hufc5e57355860d96d5d740e5551b409b1_30136_554x0_resize_q75_lanczos.jpg 554w, /widget-convert_hufc5e57355860d96d5d740e5551b409b1_30136_651x0_resize_q75_lanczos.jpg 651w, /widget-convert_hufc5e57355860d96d5d740e5551b409b1_30136_748x0_resize_q75_lanczos.jpg 748w" alt="Convert leads with AI chat bot" class="c-tour__image" width="748" height="937" loading="lazy">
+
+                    </div>
+                </div>
+
+                <div data-target="widget.tourContainer" class="c-tour__gallery u-relative">
+                    <div class="flex-center">
+                        <img src="/widget-background.b97f9520430a7c20c3779719e91697f20a59ebeeff67f39b8baf9d7a660535d7.png" srcset="/widget-background_hu49de47a7dffb52dd294940f74d15e850_17095_360x0_resize_lanczos_3.png 360w, /widget-background_hu49de47a7dffb52dd294940f74d15e850_17095_667x0_resize_lanczos_3.png 667w, /widget-background_hu49de47a7dffb52dd294940f74d15e850_17095_974x0_resize_lanczos_3.png 974w, /widget-background_hu49de47a7dffb52dd294940f74d15e850_17095_1281x0_resize_lanczos_3.png 1281w, /widget-background_hu49de47a7dffb52dd294940f74d15e850_17095_1588x0_resize_lanczos_3.png 1588w" alt="" class="t-home-widget-background" width="560" height="470" loading="lazy">
+
+
+                        <div class="o-widget u-relative z-index">
+                            <div class="o-widget-header">
+                                <div class="avatar"><img src="/bot-avatar.84e43e78099e3f0aa5ce14b431827665f4a720fe6fb4d9b8584dc294a915fdf5.svg" alt="" class="" width="15" height="15" loading="lazy">
+</div>
+                                <div>
+                                    <div class="name">Support ChatBot</div>
+                                    <div class="status">Online</div>
+                                </div>
+                            </div>
+
+                            <div class="o-widget-container" data-target="widget.container">
+                                <div class="o-widget-msg" data-target="widget.aElement" data-sal="widget.a">
+                                    <img src="/bot-avatar.84e43e78099e3f0aa5ce14b431827665f4a720fe6fb4d9b8584dc294a915fdf5.svg" alt="" class="o-widget-msg-avatar" width="15" height="15" loading="lazy">
+
+                                    <div class="o-widget-msg-container">
+                                        <div class="author">Support ChatBot</div>
+
+                                        <div class="o-widget-text u-mb-xs">Hi! 👋 How can I help you today?</div>
+
+                                    </div>
+                                </div>
+
+                                <div class="o-widget-msg full">
+                                    <div class="o-widget-msg-container">
+                                        <div class="o-widget-quick-replies">
+                                            <div class="button">Services</div>
+                                            <div class="button">Solutions</div>
+                                            <div class="button">Book a call</div>
+                                            <div class="button">Leave a message</div>
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="o-widget-msg user u-mb-xs">
+                                    <div class="o-widget-msg-container">
+                                        <div class="author u-text-right u-text-gray-600 u-mb-2xs">User</div>
+                                        <div class="o-widget-text">Services</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="o-widget-msg full">
+                                    <div class="o-widget-msg">
+                                        <img src="/bot-avatar.84e43e78099e3f0aa5ce14b431827665f4a720fe6fb4d9b8584dc294a915fdf5.svg" alt="" class="o-widget-msg-avatar" width="15" height="15" loading="lazy">
+
+                                        <div class="o-widget-msg-container">
+                                            <div class="author">Support ChatBot</div>
+
+                                        </div>
+                                    </div>
+                                    <div class="o-widget-carousel u-relative" data-target="widget.bElement" data-sal="b">
+                                        <div class="arrow-left" data-target="widget.carouselArrowLeft" data-action="click->widget#moveCarouselLeft">
+                                            <img src="/carousel-arrow.36b8b3f6d6407f1afb754a7c607c835b2419d72bd00a6aa04c687cd7237ead61.svg" alt="" class="" width="11" height="15" loading="lazy">
+
+                                        </div>
+                                        <div class="arrow-right" data-target="widget.carouselArrowRight" data-action="click->widget#moveCarouselRight">
+                                            <img src="/carousel-arrow.36b8b3f6d6407f1afb754a7c607c835b2419d72bd00a6aa04c687cd7237ead61.svg" alt="" class="" width="11" height="15" loading="lazy">
+
+                                        </div>
+                                        <div class="o-widget-carousel-container u-Pb-2xs" data-target="widget.carouselContainer">
+                                            
+                                            
+                                                
+                                            
+                                            <div class="o-widget-card-container">
+                                                <div class="o-widget-card u-shadow u-mb-md">
+                                                    <img src="/elements/widget/widget-card-1.png" class="u-mb-xs" loading="lazy" alt="">
+                                                    <div class="u-flex u-flex-col description">
+                                                        <p class="u-px-md title">Digital Transformation</p>
+                                                        <p class="u-flex-1 u-px-md">Digitize your business to increase revenue.</p>
+                                                        <div class="button">Learn more</div>
+                                                        <div class="button">Book a call</div>
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            
+                                            
+                                                
+                                            
+                                            <div class="o-widget-card-container">
+                                                <div class="o-widget-card u-shadow u-mb-md">
+                                                    <img src="/elements/widget/widget-card-2.png" class="u-mb-xs" loading="lazy" alt="">
+                                                    <div class="u-flex u-flex-col description">
+                                                        <p class="u-px-md title">Machine Learning</p>
+                                                        <p class="u-flex-1 u-px-md">Personalize your customer experience.</p>
+                                                        <div class="button">Learn more</div>
+                                                        <div class="button">Book a call</div>
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            
+                                            
+                                                
+                                            
+                                            <div class="o-widget-card-container">
+                                                <div class="o-widget-card u-shadow u-mb-md">
+                                                    <img src="/elements/widget/widget-card-3.png" class="u-mb-xs" loading="lazy" alt="">
+                                                    <div class="u-flex u-flex-col description">
+                                                        <p class="u-px-md title">Business Intelligence</p>
+                                                        <p class="u-flex-1 u-px-md">Transform data into business decisions.</p>
+                                                        <div class="button">Learn more</div>
+                                                        <div class="button">Book a call</div>
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div data-target="widget.cElement" data-sal="widget.c">
+                                 <div class="o-widget-msg user u-mb-xs">
+                                     <div class="o-widget-msg-container">
+                                         <div class="author u-text-right u-text-gray-600 u-mb-2xs">User</div>
+                                         <div class="o-widget-text">Book a call</div>
+                                     </div>
+                                 </div>
+
+                                </div>
+
+                                <div class="o-widget-msg">
+                                    <img src="/bot-avatar.84e43e78099e3f0aa5ce14b431827665f4a720fe6fb4d9b8584dc294a915fdf5.svg" alt="" class="o-widget-msg-avatar" width="15" height="15" loading="lazy">
+
+                                    <div class="o-widget-msg-container">
+                                        <div class="author">Support ChatBot</div>
+
+                                        <div class="o-widget-text u-mb-xs actionElement">Awesome! How big is your team?</div>
+
+                                    </div>
+                                </div>
+
+                                <div class="o-widget-msg full">
+                                    <div class="o-widget-msg-container">
+                                        <div class="o-widget-quick-replies">
+                                            <div class="button">1-10</div>
+                                            <div class="button">10-50</div>
+                                            <div class="button">50-100</div>
+                                            <div class="button">100+</div>
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="o-widget-msg user u-mb-xs">
+                                    <div class="o-widget-msg-container">
+                                        <div class="author u-text-right u-text-gray-600 u-mb-2xs">User</div>
+                                        <div class="o-widget-text">50-100</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="o-widget-msg" data-target="widget.dElement" data-sal="widget.d">
+                                    <img src="/bot-avatar.84e43e78099e3f0aa5ce14b431827665f4a720fe6fb4d9b8584dc294a915fdf5.svg" alt="" class="o-widget-msg-avatar" width="15" height="15" loading="lazy">
+
+                                    <div class="o-widget-msg-container">
+                                        <div class="author">Support ChatBot</div>
+
+                                        <div class="o-widget-text u-mb-xs actionElement">We have a lot of experience in working with companies of your size!</div>
+
+                                        <div class="o-widget-button">
+                                            <div class="o-widget-button-container u-shadow u-mb-md">
+                                                <p class="u-py-sm u-px-sm u-mb-sm">When would you like to talk to our team?</p>
+                                                <div class="button">Mon, Feb 4 at 10:00 a.m.</div>
+                                                <div class="button">Mon, Feb 4 at 11:00 a.m.</div>
+                                                <div class="button">Tue, Feb 5 at 9 a.m.</div>
+                                                <div class="button">Choose a different date</div>
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="o-widget-msg user u-mb-xs">
+                                    <div class="o-widget-msg-container">
+                                        <div class="author u-text-right u-text-gray-600 u-mb-2xs">User</div>
+                                        <div class="o-widget-text">Mon, Fab 4 at 11:00</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="o-widget-msg">
+                                    <img src="/bot-avatar.84e43e78099e3f0aa5ce14b431827665f4a720fe6fb4d9b8584dc294a915fdf5.svg" alt="" class="o-widget-msg-avatar" width="15" height="15" loading="lazy">
+
+                                    <div class="o-widget-msg-container">
+                                        <div class="author">Support ChatBot</div>
+
+                                        <div class="o-widget-text u-mb-xs actionElement">We need your email address to send you a confirmation.</div>
+
+                                    </div>
+                                </div>
+
+                                <div class="o-widget-msg user u-mb-xs">
+                                    <div class="o-widget-msg-container">
+                                        <div class="author u-text-right u-text-gray-600 u-mb-2xs">User</div>
+                                        <div class="o-widget-text">tom@examplecompany.com</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div data-target="widget.textarea" class="o-widget-textarea u-text-p7 u-text-gray-600 u-relative">
+                                Send a message...
+                                <img src="/send.85f6eb6de7a66cfeb5cec33967e0f1baa1b84c7183404fa126da4ccc1773f87e.svg" alt="" class="o-widget-send-message" width="20" height="21" loading="lazy">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <svg preserveAspectRatio="none" viewBox="0 0 1440 36" class="u-block" xmlns="http://www.w3.org/2000/svg" style="margin-top: -1px; margin-bottom: -1px; width: 100%; height: auto; "><rect width="100%" height="100%" fill="#fff"></rect><path d="M1440 36V8.2s-105.6-1.2-160.7-6a877 877 0 00-150.5 2.5c-42.1 3.9-140 15-223 15C754 19.6 700.3 6.8 548.8 7c-143.7 0-273.4 11.5-350 12.6-76.6 1.2-198.8 0-198.8 0V36h1440z" fill="#ffd000"></path></svg>
+
+
+      
+      <script async="" defer="" src="/dist/js/main.f342f3a4bd704a90eb788f2ae60de054f4196f7206b34083102ee8fed98278e1.js"></script>
+    
+
+  
+    
+    <script type="text/javascript">
+        window.__be = window.__be || {};
+        window.__be.id = "61f28451fdd7c5000728b4f9";
+        (function() {
+            var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+            be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+        })();
+    </script>
+    
+    
+
+    
+
+
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","557588311460926");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=557588311460926&amp;ev=PageView&amp;noscript=1"></noscript>
+<div id="pt-ext-root"></div><div id="chatbot-chat" style="border: 0px; background-color: transparent; pointer-events: none; z-index: 2147483639; position: fixed; bottom: 0px; width: 280px; height: 224px; overflow: hidden; opacity: 1; max-width: 100%; right: 0px; max-height: 100%;"><iframe src="https://cdn.chatbot.com/widget/v2/chat.html?id=61f28451fdd7c5000728b4f9&amp;v=28" id="chatbot-chat-frame" name="chat-widget" title="ChatBot chat widget" style="pointer-events: all; background: none; border: 0px; float: none; position: absolute; inset: 0px; width: 100%; height: 100%; margin: 0px; padding: 0px; min-height: 0px;"></iframe></div></body></html>
 
 		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
